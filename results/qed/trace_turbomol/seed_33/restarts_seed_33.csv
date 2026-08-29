@@ -1,0 +1,4 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,11,trust_region_underfilled_28_lt_batch_49,center_records,FC(F)(F)c1cc2c3c(NCc4csnn4)c1CC2C3,0.9436588010231006,200,0.42653061224489797,1000
+2,16,trust_region_underfilled_37_lt_batch_49,center_records,FC1(F)CC23Cc4c1cc2c(c4NCc1csnn1)C3,0.9444024360697549,200,0.42653061224489797,1000
+3,20,trust_region_underfilled_21_lt_batch_49,center_records,FC(F)(F)c1c2c(NCc3csnn3)c3c4c1CC4(C2)C3,0.946656151442199,200,0.42653061224489797,1000

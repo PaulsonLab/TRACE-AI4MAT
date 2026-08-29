@@ -1,0 +1,47 @@
+{
+    "oracle_name": "qed",
+    "oracle_display_name": "QED",
+    "reward_label": "QED",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "RDKit/TDC/GuacaMol"
+    },
+    "created_at_utc": "2026-06-10T01:25:40.206584+00:00",
+    "source_pool": "zinc250k.csv",
+    "smiles_column": "smiles",
+    "selection_regime": "de_novo_diverse",
+    "pool_size_requested": 5000,
+    "n_source_smiles": 249455,
+    "n_source_scanned_for_pool": 5002,
+    "n_valid_sampled_smiles": 5000,
+    "n_candidates_used": 5000,
+    "n_initial": 20,
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "base_seed": 1729,
+    "score_quantile_low": 0.2,
+    "score_quantile_high": 0.7,
+    "min_pairwise_distance": 0.25,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "seed_files": [
+        "initial_data/qed/seed_11.csv",
+        "initial_data/qed/seed_22.csv",
+        "initial_data/qed/seed_33.csv",
+        "initial_data/qed/seed_44.csv",
+        "initial_data/qed/seed_55.csv"
+    ]
+}

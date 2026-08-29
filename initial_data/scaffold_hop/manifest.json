@@ -1,0 +1,48 @@
+{
+    "oracle_name": "scaffold_hop",
+    "oracle_display_name": "Scaffold Hop",
+    "reward_label": "Scaffold Hop score",
+    "oracle_metadata": {
+        "family": "guacamol_hop",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "CCCOc1cc2ncnc(Nc3ccc4ncsc4c3)c2cc1S(=O)(=O)C(C)(C)C",
+        "source": "GuacaMol standard_benchmarks scaffold_hop"
+    },
+    "created_at_utc": "2026-06-10T01:27:48.381665+00:00",
+    "source_pool": "zinc250k.csv",
+    "smiles_column": "smiles",
+    "selection_regime": "lead_optimization",
+    "pool_size_requested": 5000,
+    "n_source_smiles": 249455,
+    "n_source_scanned_for_pool": 5002,
+    "n_valid_sampled_smiles": 5000,
+    "n_candidates_used": 2500,
+    "n_initial": 20,
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "base_seed": 1729,
+    "score_quantile_low": 0.2,
+    "score_quantile_high": 0.7,
+    "min_pairwise_distance": 0.25,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "seed_files": [
+        "initial_data/scaffold_hop/seed_11.csv",
+        "initial_data/scaffold_hop/seed_22.csv",
+        "initial_data/scaffold_hop/seed_33.csv",
+        "initial_data/scaffold_hop/seed_44.csv",
+        "initial_data/scaffold_hop/seed_55.csv"
+    ]
+}

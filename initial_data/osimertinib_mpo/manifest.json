@@ -1,0 +1,49 @@
+{
+    "oracle_name": "osimertinib_mpo",
+    "oracle_display_name": "Osimertinib MPO",
+    "reward_label": "Osimertinib MPO",
+    "oracle_metadata": {
+        "family": "guacamol_mpo",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "COc1cc(N(C)CCN(C)C)c(NC(=O)C=C)cc1Nc2nccc(n2)c3cn(C)c4ccccc34",
+        "source": "GuacaMol standard_benchmarks hard_osimertinib"
+    },
+    "created_at_utc": "2026-06-21T03:17:39.717782+00:00",
+    "source_pool": "zinc250k.csv",
+    "smiles_column": "smiles",
+    "selection_regime": "de_novo_diverse",
+    "builder_pool_note": "This pool is used only to choose initial molecules. During benchmark runs, TRACE, Graph-GA, and GP-BO generate new molecules and are not limited to this pool.",
+    "pool_size_requested": 5000,
+    "n_source_smiles": 249455,
+    "n_source_scanned_for_pool": 5002,
+    "n_valid_sampled_smiles": 5000,
+    "n_candidates_used": 5000,
+    "n_initial": 20,
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "base_seed": 1729,
+    "score_quantile_low": 0.2,
+    "score_quantile_high": 0.7,
+    "min_pairwise_distance": 0.25,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "seed_files": [
+        "initial_data/osimertinib_mpo/seed_11.csv",
+        "initial_data/osimertinib_mpo/seed_22.csv",
+        "initial_data/osimertinib_mpo/seed_33.csv",
+        "initial_data/osimertinib_mpo/seed_44.csv",
+        "initial_data/osimertinib_mpo/seed_55.csv"
+    ]
+}

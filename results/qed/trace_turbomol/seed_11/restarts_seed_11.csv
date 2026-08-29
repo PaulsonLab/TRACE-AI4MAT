@@ -1,0 +1,5 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,7,trust_region_underfilled_37_lt_batch_49,center_records,Cc1cc([C@H]([NH2+]C(C)C)c2ccon2)c(F)cc1F,0.9234454742739185,200,0.42653061224489797,1000
+2,10,trust_region_underfilled_46_lt_batch_49,center_records,Cc1cc([C@H]([NH2+]C(C)C)c2ccoc2)c(Cl)cc1F,0.9145519624922589,200,0.42653061224489797,1000
+3,13,trust_region_underfilled_38_lt_batch_49,history_fallback,Cc1cc([C@H]([NH2+]C(C)C)c2ccon2)ccc1Br,0.9434130439711746,200,0.42653061224489797,1000
+4,16,trust_region_underfilled_27_lt_batch_49,history_fallback,CC[NH2+][C@H](c1ccon1)c1cc(C)c(C)cc1Br,0.9433548813562352,200,0.42653061224489797,1000

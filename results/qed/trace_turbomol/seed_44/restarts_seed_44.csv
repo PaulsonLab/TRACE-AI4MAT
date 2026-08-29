@@ -1,0 +1,4 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,11,trust_region_underfilled_37_lt_batch_49,center_records,Cc1ccc2c(c1)C=C(C[NH+]1CCCC[C@H]1c1ncon1)CO2,0.9412368861131166,200,0.42653061224489797,1000
+2,15,trust_region_underfilled_39_lt_batch_49,center_records,Clc1cc(Cl)c2c(c1)C=C(C[NH+]1CCCC[C@H]1c1ncon1)CO2,0.9064953340416028,200,0.42653061224489797,1000
+3,19,trust_region_underfilled_43_lt_batch_49,history_fallback,Cc1cc2cc(c1)CCC(C[NH+]1CCCC[C@H]1c1ncon1)=C2,0.9471515094713374,200,0.42653061224489797,1000

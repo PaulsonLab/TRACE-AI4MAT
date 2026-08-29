@@ -1,0 +1,3 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,11,trust_region_underfilled_38_lt_batch_49,center_records,CCOc1cc2c(cc1/C=[SH]/c1cccc(Br)c1)OCO2,0.15899720766358738,200,0.42653061224489797,1000
+2,17,trust_region_underfilled_46_lt_batch_49,center_records,CCOc1cc2c(cc1/[SH]=[SH]/c1ccccc1)OCO2,0.1710342188904463,200,0.42653061224489797,1000

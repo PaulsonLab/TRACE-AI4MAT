@@ -1,0 +1,18 @@
+# TRACE submission package -- runtime dependencies.
+#
+# Verified on Python 3.14 (Linux, CPU) and Python 3.14.2 (Windows 11).
+# TRACE is CPU-only; no GPU is required for any oracle in this package.
+#
+# scikit-learn is needed only to unpickle the bundled DRD2 model. That pickle
+# was written by scikit-learn 0.23, so newer versions emit an
+# InconsistentVersionWarning on load. The warning is expected -- verify_package.py
+# confirms the loaded model still reproduces the recorded DRD2 scores exactly.
+
+botorch==0.18.1
+gpytorch==1.15.2
+matplotlib==3.10.9
+numpy==2.4.6
+rdkit==2026.3.3
+scikit-learn==1.9.0
+scipy==1.17.1
+torch==2.12.0

@@ -1,0 +1,52 @@
+{
+    "oracle_name": "median_2",
+    "oracle_display_name": "Median molecules 2",
+    "reward_label": "Median-2 score",
+    "oracle_metadata": {
+        "family": "guacamol_similarity",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": [
+            "O=C1N(CC(N2C1CC3=C(C2C4=CC5=C(OCO5)C=C4)NC6=C3C=CC=C6)=O)C",
+            "CCCC1=NN(C2=C1N=C(NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C"
+        ],
+        "source": "GuacaMol standard_benchmarks median_tadalafil_sildenafil"
+    },
+    "created_at_utc": "2026-06-21T02:26:01.636488+00:00",
+    "source_pool": "zinc250k.csv",
+    "smiles_column": "smiles",
+    "selection_regime": "lead_optimization",
+    "builder_pool_note": "This pool is used only to choose initial molecules. During benchmark runs, TRACE, Graph-GA, and GP-BO generate new molecules and are not limited to this pool.",
+    "pool_size_requested": 5000,
+    "n_source_smiles": 249455,
+    "n_source_scanned_for_pool": 5002,
+    "n_valid_sampled_smiles": 5000,
+    "n_candidates_used": 2500,
+    "n_initial": 20,
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "base_seed": 1729,
+    "score_quantile_low": 0.2,
+    "score_quantile_high": 0.7,
+    "min_pairwise_distance": 0.25,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "seed_files": [
+        "initial_data/median_2/seed_11.csv",
+        "initial_data/median_2/seed_22.csv",
+        "initial_data/median_2/seed_33.csv",
+        "initial_data/median_2/seed_44.csv",
+        "initial_data/median_2/seed_55.csv"
+    ]
+}

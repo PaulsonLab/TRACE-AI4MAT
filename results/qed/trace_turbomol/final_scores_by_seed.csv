@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,best_sa,n_restarts,run_dir
+11,0.9469037296510076,Cc1cc(Br)c([C@H]([NH2+])c2nocc2C)cc1CF,4.225183175090237,4,results/qed/trace_turbomol/seed_11
+22,0.9483014558092429,CC1=NC(=Cc2ccccc2)[C@H]1[C@H]1NC(c2cccnc2)=NO1,3.945452234259882,3,results/qed/trace_turbomol/seed_22
+33,0.9472588496341584,FC1(F)c2c3c(NCc4csnn4)c4c5c2CC1C5(C3)C4,6.488760995764319,3,results/qed/trace_turbomol/seed_33
+44,0.9471515094713374,Cc1ccc2c(c1)C=C(C[NH+]1CCCC[C@H]1c1ncon1)CC2,4.715634360956715,3,results/qed/trace_turbomol/seed_44
+55,0.9334412946738169,Cc1nn(C(C)C)c(C)c1C(S#N)[NH+]1CSC12CCC2,5.587012398486738,1,results/qed/trace_turbomol/seed_55

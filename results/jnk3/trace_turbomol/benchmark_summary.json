@@ -1,0 +1,26 @@
+{
+    "method": "trace_turbomol",
+    "objective": "jnk3",
+    "reward_label": "JNK3 activity",
+    "n_seeds": 5,
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "max_sa_score": 6.5,
+    "max_smiles_length": 100,
+    "max_heavy_atoms": 50,
+    "required_atomic_nums": null,
+    "restart_floor_rule": "max(K_min, batch_size)",
+    "mean_final_best": 0.328,
+    "std_final_best": 0.04707440918375928,
+    "best_seed": 33,
+    "best_score_overall": 0.39,
+    "total_restarts": 1,
+    "out_root": "results/jnk3/trace_turbomol"
+}

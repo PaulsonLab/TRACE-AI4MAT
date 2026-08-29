@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,best_sa,n_restarts,run_dir
+11,0.25,Nc1ccc(C=NCl)c([N-]C2=NC(=NN3CCCC34CCC4)C2=Cc2ccc([N+](=O)[O-])cc2)c1,4.601968699424849,1,results/jnk3/trace_turbomol/seed_11
+22,0.36,C=S(N)c1cc([N+](=O)[O-])c(N/N=C/c2cn(-c3ccc(C#N)cc3)nc2-c2cccc(C(=O)C(C)(CO)CBr)c2)c2c1CC1OC(CBr)C21,5.216726482805952,0,results/jnk3/trace_turbomol/seed_22
+33,0.39,C=S(C)(=O)C(C1CC1)C(C)[SH]1C[SH]2C3=NC(=O)/C(=C\c4oc(-c5cnc6c(c5)-c5ccncc5CO6)cc4S)C(=N)N3N=C21,6.014811421648835,0,results/jnk3/trace_turbomol/seed_33
+44,0.32,C=C(N)c1cccc(C2=C(/C=N/NC(=O)[CH][C@@H]3Cc4cc(S)c(C=O)c3c4)S(=[SH]F)(=C3CCCC3)C([N+](=O)[O-])=C2)c1,6.1700989928376275,0,results/jnk3/trace_turbomol/seed_44
+55,0.32,COC(=O)c1cncc2c1C21CC2(N3C(=N)S/C(=C\c4ccnc([N+](=O)[O-])c4)C3=O)C3=C(CCC3)C3=C(OC3)C12I1C(I)CC12CC2,6.493707299420231,0,results/jnk3/trace_turbomol/seed_55

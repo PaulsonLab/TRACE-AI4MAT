@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Reproduction output. `results/` and `figures/` are versioned deliberately --
+# they are the bundled record. Anything you regenerate goes elsewhere.
+results_repro/
+figures_repro/
+smoke_test/
+*.egg-info/
+.venv/
+venv/
+.DS_Store

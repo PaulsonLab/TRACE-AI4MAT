@@ -1,0 +1,3 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,7,trust_region_underfilled_47_lt_batch_49,center_records,C1#CC(CCC[NH2+][C@@H]2CCN(C3CC3)C2)c2ccccc21,0.8932744639573845,200,0.42653061224489797,1000
+2,15,trust_region_underfilled_46_lt_batch_49,center_records,BrC1CC1N1CC[C@@H]([NH2+]CCCC2Cc3cccc2c3)C1,0.9848518808081617,200,0.42653061224489797,1000

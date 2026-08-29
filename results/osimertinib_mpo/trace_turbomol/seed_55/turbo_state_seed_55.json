@@ -1,0 +1,16 @@
+{
+    "K": 200,
+    "K_init": 200,
+    "K_min": 20,
+    "K_max": 1000,
+    "tau_succ": 5,
+    "tau_fail": 3,
+    "expand_factor": 2.0,
+    "shrink_factor": 0.5,
+    "eps_improve": 0.001,
+    "s_min_floor": 0.1,
+    "s_min_ceil": 0.5,
+    "best_value": 0.7707713836060629,
+    "success_counter": 1,
+    "failure_counter": 0
+}

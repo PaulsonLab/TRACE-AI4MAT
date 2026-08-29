@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,best_sa,n_restarts,run_dir
+11,15.18914281248313,CCCCCCCCCc1sc(CN(C(=Cc2ccccc2)c2cccc(CCCC(Br)(Br)Br)c2)c2nc3c(Br)c(CCC)ccc3s2)cc1C(C)(C)CCC(CC)CC,4.03685718751687,0,results/penalized_logp/trace_turbomol/seed_11
+22,14.464122957600797,C=C(CC)c1cc(C(C=CC(C)(C)C(CCC)CCC)=Cn2cc(/C=C/Nc3ccc(SCC)cc3)c(-c3cc(Cl)cc(Br)c3-c3ccccc3)c2)cc(CCCC)c1Br,4.293877042399196,0,results/penalized_logp/trace_turbomol/seed_22
+33,16.036304441442415,CCCCc1ccc(Br)c(-c2c(-c3ccc(CCC)c(CBr)c3)cc(/C=C(\Br)c3cccc(-c4ccc(CCC)cc4)c3)cc2-c2ccccc2C(Br)(Br)Br)c1CCCC,3.753895558557595,0,results/penalized_logp/trace_turbomol/seed_33
+44,14.490988448035074,CCCCCCCC(c1cc(=S)c2c(SC(C)(C)C(CCC)CCC)c(C)sc2[nH]1)C(c1c(-c2ccccc2C(C)C)cc(CC)c(C)c1-c1ccccc1)C(CC)CC,4.85574155196492,0,results/penalized_logp/trace_turbomol/seed_44
+55,13.99507654237888,CCCSc1ccc(C(CCC)c2cccc(-c3c(Br)c(-c4ccccc4Br)cc(-c4c(C)ccc5c4CCCC5)c3/C=C/c3cc(SC)c(C)cc3C(C)C)c2)cc1,4.162963457621105,0,results/penalized_logp/trace_turbomol/seed_55

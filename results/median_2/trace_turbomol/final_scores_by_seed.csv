@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,best_sa,n_restarts,run_dir
+11,0.1482424587989223,C=S(C)c1cccc(C2CCS23O[C@@H]3COc2ccc(CC)c(CCC)c2S(C)(=O)=O)c1,5.299383868584355,0,results/median_2/trace_turbomol/seed_11
+22,0.18038084163249035,CCCc1[nH]c2cc(OCC)nc3c2c1CC(c1ccc(S(C)(=O)=O)c(CC)c1)[SH]3c1ccc(S(C)(=O)=[SH]C)cc1-c1ccccc1OCC,5.100389934228597,0,results/median_2/trace_turbomol/seed_22
+33,0.1894292336396566,CCOc1cc(/[SH]=[SH]/c2ccc3c(c2)OCO3)cc(CS(=O)(=O)S)c1N1C(C)C[SH]1C,5.435175043028561,0,results/median_2/trace_turbomol/seed_33
+44,0.1740896460136351,CCOc1cc2c(cc1/[SH]=[SH](\S)c1ccccc1CC)OCO2,3.978300885851234,2,results/median_2/trace_turbomol/seed_44
+55,0.16961579031075694,C=S(=O)(Cc1nc2c(CCC)c3c(cc2[nH]1)CC3Cl)c1ccccc1OCC,3.9545999733007946,1,results/median_2/trace_turbomol/seed_55

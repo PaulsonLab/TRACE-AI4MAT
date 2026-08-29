@@ -1,0 +1,2 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,20,trust_region_underfilled_45_lt_batch_49,center_records,Cc1cncc2c(F)c(CNC(N)Cc3snc4c3CCC4(C)C)c(=O)oc12,0.516,200,0.42653061224489797,1000

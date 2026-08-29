@@ -1,0 +1,26 @@
+{
+    "method": "trace_turbomol",
+    "objective": "deco_hop",
+    "reward_label": "Deco Hop score",
+    "n_seeds": 5,
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "max_sa_score": 6.5,
+    "max_smiles_length": 100,
+    "max_heavy_atoms": 50,
+    "required_atomic_nums": null,
+    "restart_floor_rule": "max(K_min, batch_size)",
+    "mean_final_best": 0.6503415756728843,
+    "std_final_best": 0.019114859850019563,
+    "best_seed": 55,
+    "best_score_overall": 0.683779605031977,
+    "total_restarts": 0,
+    "out_root": "results/deco_hop/trace_turbomol"
+}

@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,best_sa,n_restarts,run_dir
+11,0.7908621926532275,C=C(N)c1nc(-c2ccncc2OC)cc2c1C2N(CCO)c1cccc(S(=C)(N)=O)c1[SH]=O,4.706635235619145,1,results/osimertinib_mpo/trace_turbomol/seed_11
+22,0.7438301789874407,COCC(N)Nc1cnccc1C1CN2C=C(S(=O)N[SH](N)C3=NC=N3)C(=N)NC12C(C)(C)C,6.0353786053611636,0,results/osimertinib_mpo/trace_turbomol/seed_22
+33,0.8107664263659291,C=S1(=O)C[C@]([NH2+])(C(N)=O)C1(CNc1cnc(-c2ccncc2)cc1OC)CN(C)C,4.618419011349891,0,results/osimertinib_mpo/trace_turbomol/seed_33
+44,0.79501439650853,COc1cccc([SH](C)[C@]2(C3[NH2+]C3(c3cnc4cc3-4)N(C)CCC(N)=O)COC(c3ccncc3)C(I)[NH2+]2)c1N,5.835366792982962,0,results/osimertinib_mpo/trace_turbomol/seed_44
+55,0.7707713836060629,C=CC1C(S(C)(=O)=O)C12C(c1ccccc1)N(c1ncc(OC)s1)CC(CN)N2S(N)=O,5.626101260328042,2,results/osimertinib_mpo/trace_turbomol/seed_55

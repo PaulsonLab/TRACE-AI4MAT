@@ -1,0 +1,27 @@
+{
+    "method": "trace_turbomol",
+    "objective": "qed",
+    "reward_label": "QED",
+    "n_seeds": 5,
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "max_sa_score": 6.5,
+    "max_smiles_length": 100,
+    "max_heavy_atoms": 50,
+    "required_atomic_nums": null,
+    "restart_floor_rule": "max(K_min, batch_size)",
+    "mean_final_best": 0.9446113678479126,
+    "std_final_best": 0.0056054203372959445,
+    "best_seed": 22,
+    "best_score_overall": 0.9483014558092429,
+    "total_restarts": 14,
+    "out_root": "results/qed/trace_turbomol",
+    "regenerated_note": "Regenerated 2026-08-28 from the per-seed summaries in this directory. The previous file was left over from an earlier qed run and disagreed with them (mean 0.942617 vs 0.944611, restarts 7 vs 14). No figure or table was derived from it; all of them are built from evaluations_seed_*.csv."
+}

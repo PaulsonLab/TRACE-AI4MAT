@@ -1,0 +1,3 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,1,trust_region_underfilled_0_lt_batch_49,history_fallback,NS(=O)(=O)N1CCN(c2nccs2)CC1,0.3974127570781465,200,0.42653061224489797,1000
+2,19,trust_region_underfilled_47_lt_batch_49,center_records,C=C(N)C1C(S(C)(=O)=O)C12C(c1ccccc1)N(c1ncc(OC)s1)CC(CN)N2S(N)=O,0.7626139246288384,200,0.42653061224489797,1000
