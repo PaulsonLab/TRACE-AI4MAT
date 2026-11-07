@@ -11,3 +11,9 @@ smoke_test/
 .venv/
 venv/
 .DS_Store
+
+# Local assistant and editor config -- never part of the release.
+CLAUDE.md
+.claude/
+.cursor/
+.vscode/

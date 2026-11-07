@@ -1,0 +1,22 @@
+{
+    "method": "stoned_selfies",
+    "variant": "literature_faithful_elitist",
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 200,
+    "batch_size": 5,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "max_attempt_multiplier": 100,
+    "mean_final_best": 0.47653079898153783,
+    "std_final_best": 0.00927710517777533,
+    "best_score_overall": 0.4900188323917137,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_batch_size_sweep/batch_5/scaffold_hop/stoned_selfies"
+}

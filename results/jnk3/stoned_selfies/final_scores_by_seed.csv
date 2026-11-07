@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,n_oracle_calls
+11,0.34,CO[B-]CC[P+]C=[P+]=C=[S-]=C1CS/C(=C\c2ccc([N+](=O)[O-])cc2)C(=O)N1,1000
+22,0.28,C#CP=CC=C[SH]1[P-]=C(/C=N/Nc2ccc([C+]Br)cc2[N+](=O)[O-])C(c2ccccc2)=[S+]1,1000
+33,0.25,[C+]=S(C)O[P+]#[S-]([S+])C1=NN2C(=N)/C(=C/c3ccc(C4=C=[C+]C(Br)C=C4)o3)C(=O)N=C2S1,1000
+44,0.27,[B-][SH][N+]=C(C[CH]C=NC=CC1=CC=[S-]=CB1)N/N=C/c1ccc([N+](=N)[O-])s1,1000
+55,0.31,O=C1N[S-](=[SH]C=CC=CC([P+])=[C-]N=[S+])C(=O)/C1=C\c1bccc([N+](=O)[O-])c1,1000

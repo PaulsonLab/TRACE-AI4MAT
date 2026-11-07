@@ -1,0 +1,37 @@
+{
+    "method": "stoned_selfies",
+    "seed": 11,
+    "oracle": "drd2",
+    "reward_label": "DRD2 activity probability",
+    "oracle_metadata": {
+        "family": "tdc_activity_classifier",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "tdc_name": "DRD2",
+        "source": "TDC/PMO DRD2 oracle, local drd2_current.pkl compatibility wrapper"
+    },
+    "best_smiles": "[N-]=[S+][C-]([B-]([CH]CN1C[P+]2CCC1CC2)n1cccc1)c1ncco1",
+    "best_score": 0.9433433675787253,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_all_oracles_research/drd2/stoned_selfies/seed_11/evaluations_seed_11.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_all_oracles_research/drd2/stoned_selfies/seed_11/trajectory_seed_11.csv",
+    "variant": "literature_faithful_elitist",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "generation_size": 49,
+    "length_ceiling_tokens": 100,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

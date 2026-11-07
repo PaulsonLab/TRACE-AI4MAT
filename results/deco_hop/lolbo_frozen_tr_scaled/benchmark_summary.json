@@ -1,0 +1,21 @@
+{
+    "method": "lolbo_frozen_tr_scaled",
+    "oracle": "deco_hop",
+    "reward_label": "Deco Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "tr_tolerances": "budget_scaled",
+    "oracle_source": "plogp_benchmark_suite.oracles",
+    "mean_final_best": 0.5779084079493448,
+    "std_final_best": 0.018577360425176305,
+    "best_score_overall": 0.6039077602872135,
+    "mean_decode_yield": 0.8504506246568116,
+    "out_root": "../benchmark_lolbo/deco_hop/lolbo_frozen_tr_scaled"
+}

@@ -1,0 +1,43 @@
+{
+    "method": "reinvent4_external",
+    "seed": 55,
+    "oracle": "drd2",
+    "reward_label": "DRD2 activity probability",
+    "oracle_metadata": {
+        "family": "tdc_activity_classifier",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "local bundled PMO/TDC-compatible DRD2 sklearn model",
+        "model_path": "/content/drive/MyDrive/reinvent4_oracle_suite/assets/drd2_current.pkl"
+    },
+    "best_smiles": "O=C1CCc2ccccc2N1CCCN1CCCN(c2cc(Cl)cc(Cl)c2)CC1",
+    "best_score": 0.9999842211005889,
+    "n_oracle_calls": 967,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "n_generated_rows": 1000,
+    "n_accepted_generated_rows": 967,
+    "generated_reject_reason_counts": {
+        "accepted": 967,
+        "invalid_smiles": 21,
+        "max_sa_score": 5,
+        "max_heavy_atoms": 7
+    },
+    "evaluations_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/drd2/reinvent4_external/seed_55/evaluations_seed_55.csv",
+    "trajectory_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/drd2/reinvent4_external/seed_55/trajectory_seed_55.csv",
+    "generated_samples_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/drd2/reinvent4_external/seed_55/generated_samples_seed_55.csv",
+    "source_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/drd2/reinvent4_external/seed_55/reinvent_run/reinvent4_drd2_seed_55_1.csv",
+    "initial_data": "/content/drive/MyDrive/reinvent4_oracle_suite/initial_data/drd2",
+    "n_initial_requested": 20,
+    "n_initial_loaded": 20,
+    "n_iters": 20,
+    "batch_size": 49,
+    "fixed_step_policy": "REINVENT is evaluated for exactly n_iters fixed batches. Invalid, duplicate, or constraint-failing molecules are recorded but do not consume unique oracle budget."
+}

@@ -1,0 +1,37 @@
+{
+    "method": "stoned_selfies",
+    "seed": 22,
+    "oracle": "deco_hop",
+    "reward_label": "Deco Hop score",
+    "oracle_metadata": {
+        "family": "guacamol_structural",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "GuacaMol/TDC/PMO decoration_hop",
+        "definition": "mean(clipped PHCO Tanimoto @0.85, no CS(=O)(=O)C, no [#7]-benzothiazole, scaffold present)"
+    },
+    "best_smiles": "FN=[S+]c1cc(-c2nc(CSc3nc#[n+]s3)no2)cnc1N=[S-]O[S+]F",
+    "best_score": 0.6028216164514586,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/deco_hop/stoned_selfies/seed_22/evaluations_seed_22.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/deco_hop/stoned_selfies/seed_22/trajectory_seed_22.csv",
+    "variant": "literature_faithful_elitist",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "generation_size": 49,
+    "length_ceiling_tokens": 100,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

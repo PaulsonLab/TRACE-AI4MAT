@@ -1,0 +1,13 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,37,next_shrink_below_batch_restart_floor,center_records,CCCCS(=O)(=O)C(Sc1ccc(-c2cnc(C=C3N=C4SC=NN34)o2)nn1)C(=O)OC,0.4368123699078204,200,0.42653061224489797,1000
+2,53,next_shrink_below_batch_restart_floor,center_records,COC(=O)C(NC1CCC1)Sc1ccc(-c2cnc(C=C3N=C4SC=NN34)o2)nn1,0.42683223764304845,200,0.42653061224489797,1000
+3,70,next_shrink_below_batch_restart_floor,center_records,C=S(=S)(CCCC)C(COC)Sc1nnc(-c2cnc(C)o2)cc1-c1ccnc2c1CC2,0.48544266191325014,200,0.42653061224489797,1000
+4,82,next_shrink_below_batch_restart_floor,center_records,CCCCS(=O)(=O)C(COC)Sc1nnc(-c2cnc(C=C3N=C4SC=NN34)o2)cc1-c1ccnc2c1CC2,0.4604082280994361,200,0.42653061224489797,1000
+5,96,next_shrink_below_batch_restart_floor,center_records,C=S(=O)(CCCC)C(COC(F)F)Sc1nnc(-c2cnc(C)o2)c(C)c1-c1ccnc2c1CC2,0.4915555555555555,200,0.42653061224489797,1000
+6,108,next_shrink_below_batch_restart_floor,center_records,CNCSc1ccc(-c2cnc(C=C3N=C4SC=NN34)o2)nn1,0.4244521337946943,200,0.42653061224489797,1000
+7,125,next_shrink_below_batch_restart_floor,center_records,C=S(=O)(CC)C(COC(C)F)Sc1nnc(-c2cnc(C)o2)c(C)c1-c1ccnc2c1CC21CC1,0.5012652403956751,200,0.42653061224489797,1000
+8,137,next_shrink_below_batch_restart_floor,center_records,CCOC=S(=O)(CC)C(Nc1nnc(-c2cnc(C)o2)c(C)c1-c1ccnc2c1CC21CC1)C(F)OCF,0.503901895206243,200,0.42653061224489797,1000
+9,151,next_shrink_below_batch_restart_floor,center_records,CCS(=O)(=COSC)C(Nc1nnc(-c2cnc(C)o2)c(C)c1-c1ccnc2c1CC21CC1)C(Br)OCCl,0.5040120834513359,200,0.42653061224489797,1000
+10,171,next_shrink_below_batch_restart_floor,center_records,CCON(C)SC=S(CC)C(CBr)Nc1nnc(-c2cnc(C)o2)c(C)c1-c1ccnc2c1CC2(C)C,0.5123069257598406,200,0.42653061224489797,1000
+11,184,next_shrink_below_batch_restart_floor,center_records,CCS(=COSC)C(CBr)Nc1nnc(-c2cnc(C)o2)c(C)c1-c1ccnc2c1CC21CC1,0.5095715587967183,200,0.42653061224489797,1000
+12,196,next_shrink_below_batch_restart_floor,center_records,CCSN(C)OC=S(CC)C(Nc1nnc(-c2cnc(C)o2)c(C)c1-c1cc2nc3c1CC3(C)CC2)SCl,0.5160744500846023,200,0.42653061224489797,1000

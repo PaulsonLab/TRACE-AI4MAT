@@ -1,0 +1,26 @@
+{
+    "method": "trace_turbomol",
+    "objective": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "n_seeds": 5,
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 200,
+    "batch_size": 5,
+    "max_sa_score": 6.5,
+    "max_smiles_length": 100,
+    "max_heavy_atoms": 50,
+    "required_atomic_nums": null,
+    "restart_floor_rule": "max(K_min, batch_size)",
+    "mean_final_best": 0.5207195033512054,
+    "std_final_best": 0.02006152983905918,
+    "best_seed": 55,
+    "best_score_overall": 0.5447953216374269,
+    "total_restarts": 60,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_batch_size_sweep/batch_5/scaffold_hop/trace_turbomol"
+}

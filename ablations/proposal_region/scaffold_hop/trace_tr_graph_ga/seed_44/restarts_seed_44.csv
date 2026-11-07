@@ -1,0 +1,6 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,35,next_shrink_below_batch_restart_floor,center_records,Cc1ccc(-c2coo2)cc1-c1coc(-c2cocc2-c2nc(S(=O)(=O)c3nc(-c4coo4)co3)co2)n1,0.4759535655058043,200,0.42653061224489797,1000
+2,57,next_shrink_below_batch_restart_floor,center_records,O=S(=O)(CCCc1coc(-c2cocc2-c2nc(-c3cc(-c4coo4)cnc3Cc3coo3)co2)n1)CCCc1coo1,0.49930634380123595,200,0.42653061224489797,1000
+3,70,next_shrink_below_batch_restart_floor,center_records,O=S(=O)(CCCCS(=O)(=O)c1coc(-c2cocc2-c2nc(-c3cc(-c4coo4)cnc3-c3coo3)co2)n1)CCc1coo1,0.487536231884058,200,0.42653061224489797,1000
+4,82,next_shrink_below_batch_restart_floor,center_records,Cc1ccc(-c2coc(-c3coc(S(=O)(=O)c4coc(-c5cocc5-c5nc(-c6cc(-c7coo7)co6)co5)n4)n3)c2)o1,0.47181286549707596,200,0.42653061224489797,1000
+5,94,next_shrink_below_batch_restart_floor,center_records,Cc1ccc(-c2coc(-c3coc(-c4coc(S(=O)(=O)c5coc(-c6coc(S(=O)(=O)S(C)(=O)=O)n6)n5)n4)n3)c2)o1,0.4620245892221073,200,0.42653061224489797,1000

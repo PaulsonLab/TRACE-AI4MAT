@@ -1,0 +1,37 @@
+{
+    "method": "graph_ga",
+    "seed": 44,
+    "oracle": "median_2",
+    "reward_label": "Median-2 score",
+    "oracle_metadata": {
+        "family": "guacamol_similarity",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": [
+            "O=C1N(CC(N2C1CC3=C(C2C4=CC5=C(OCO5)C=C4)NC6=C3C=CC=C6)=O)C",
+            "CCCC1=NN(C2=C1N=C(NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C"
+        ],
+        "source": "GuacaMol standard_benchmarks median_tadalafil_sildenafil"
+    },
+    "best_smiles": "O=C1CC=CN1CCSc1ccc2c(c1)OCO2",
+    "best_score": 0.16027499304163273,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\median_2\\graph_ga\\seed_44\\evaluations_seed_44.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\median_2\\graph_ga\\seed_44\\trajectory_seed_44.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

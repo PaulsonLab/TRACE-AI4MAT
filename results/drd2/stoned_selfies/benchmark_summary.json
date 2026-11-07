@@ -1,0 +1,22 @@
+{
+    "method": "stoned_selfies",
+    "variant": "literature_faithful_elitist",
+    "oracle": "drd2",
+    "reward_label": "DRD2 activity probability",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "max_attempt_multiplier": 100,
+    "mean_final_best": 0.8199709353912409,
+    "std_final_best": 0.27830704853337085,
+    "best_score_overall": 0.9999954007214858,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_all_oracles_research/drd2/stoned_selfies"
+}

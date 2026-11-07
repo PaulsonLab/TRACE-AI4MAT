@@ -1,0 +1,13 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,23,next_shrink_below_batch_restart_floor,center_records,CO/C(=C(\NC(=S)NCSF)S(=O)(=O)CC(F)(F)F)c1cnc(N)c(OCCC#N)c1,0.4309043927648579,200,0.42653061224489797,1000
+2,41,next_shrink_below_batch_restart_floor,center_records,C=S(=O)(/C(NCNCSF)=C(/OC)c1cnc(N)c(OCCC#N)c1)C(CF)(C(C)C(=O)OC)C(C)(F)Br,0.4335188620902906,200,0.42653061224489797,1000
+3,56,next_shrink_below_batch_restart_floor,center_records,C=S(/C(NCNCSF)=C(/OC)c1cnc(N)c(OCC)c1)(=S1CC1)C(CCl)(C(Cl)Br)C(C)C(=O)OC,0.43657407407407406,200,0.42653061224489797,1000
+4,75,next_shrink_below_batch_restart_floor,center_records,CCCC(C)Oc1cc(/C(OC)=C(/NCNCSCl)S(=COC)(=S2CS2)C(CBr)(C(Cl)Br)C(C)C(=S)OC)cnc1NC#N,0.45113788487282463,200,0.42653061224489797,1000
+5,87,next_shrink_below_batch_restart_floor,center_records,CCOc1cc(/C(OC)=C(/NCNCSF)S(=COC)(=S2CS2)C(CBr)(C(Cl)Br)C(C)C(=O)OC)cnc1NC#N,0.44662309368191716,200,0.42653061224489797,1000
+6,101,next_shrink_below_batch_restart_floor,center_records,C=S(/C(NCNCSCl)=C(/OC)c1cnc(N)c(OSC)c1)(=S1CC1)C(CCl)(C(Cl)Cl)C(C)C(=O)OC,0.43873149119738836,200,0.42653061224489797,1000
+7,113,next_shrink_below_batch_restart_floor,center_records,C=S(=O)(/C(NCNCSF)=C(/OC)c1cnc(N)c(OCC)c1)C(CF)(C(F)Br)C(C)C(=O)OC,0.43482397716460514,200,0.42653061224489797,1000
+8,130,next_shrink_below_batch_restart_floor,center_records,CCCC(C)Oc1cc(/C(CC)=C(/NCNCSBr)S(=S2CS2)C(SCl)(C(Cl)Br)C(C)C(=S)OC)c(-c2cccc(CC)c2Cl)nc1NC#N,0.46059860598605984,200,0.42653061224489797,1000
+9,142,next_shrink_below_batch_restart_floor,center_records,CO/C(=C(\NC(=S)NCSF)S(C)(=O)=O)c1cnc(O)c(OCCC#N)c1,0.42430149447693305,200,0.42653061224489797,1000
+10,163,next_shrink_below_batch_restart_floor,center_records,CCCC(C)Oc1cnc(-c2ccc(F)c(CC)c2F)c(/C(CC)=C(/NCNCSCl)S(=S2CS2)C(SCl)(C(Cl)Cl)C(C)C(=O)CC)c1CC,0.47406799744781697,200,0.42653061224489797,1000
+11,176,next_shrink_below_batch_restart_floor,center_records,CCCC(C)Oc1cnc(-c2cccc(CC)c2F)c(/C(CC)=C(/NCNCSCl)S(=S2CS2)C(SCl)(C(Cl)Cl)C(C)C(=S)OC)c1OC,0.4666666666666666,200,0.42653061224489797,1000
+12,191,next_shrink_below_batch_restart_floor,center_records,CC/C(=C(\NCNCSCl)S(=S1CS1)C(SBr)(C(Cl)Br)C(C)C(=O)SC)c1c(-c2ccc(F)c(CC)c2F)ncc(CC(C)CSC)c1C,0.4798711755233494,200,0.42653061224489797,1000

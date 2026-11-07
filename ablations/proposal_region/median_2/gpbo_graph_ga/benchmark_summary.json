@@ -1,0 +1,18 @@
+{
+    "method": "gpbo_graph_ga",
+    "oracle": "median_2",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_seeds": 5,
+    "n_iters": 100,
+    "batch_size": 10,
+    "mean_final_best": 0.21903848807562257,
+    "std_final_best": 0.010007626380999807,
+    "best_score_overall": 0.235550145335854,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/median_2/gpbo_graph_ga"
+}

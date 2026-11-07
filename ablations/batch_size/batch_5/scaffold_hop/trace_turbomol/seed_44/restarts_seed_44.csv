@@ -1,0 +1,11 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,31,next_shrink_below_batch_restart_floor,center_records,CCOCS(=O)(=S)c1cc(-c2ccc(S)cc2)oc1/[SH]=C1\N=C2SC(S(=O)(=O)Cc3cncc(Br)c3)=CN2C1=C(Cl)S(C)=S1CCCC1,0.4231647154112363,200,0.42653061224489797,1000
+2,45,next_shrink_below_batch_restart_floor,center_records,CS(C(Cl)=C1/C(=[SH]/c2oc(-c3ccc4c(c3)CS4)cc2S(C)(=O)=S)N=C2SC(S(=O)Cc3cncc(Br)c3)=CN21)=S1CCCC1,0.43163322858754327,200,0.42653061224489797,1000
+3,60,next_shrink_below_batch_restart_floor,center_records,CS(C(F)=C1/C(=[SH]/c2oc(-c3ccc(S)cc3)cc2S(C)(=O)=S)N=C2SC(S(=O)(=O)Cc3cccnc3)=CN21)=S1CCCC1,0.4205025572603958,200,0.42653061224489797,1000
+4,91,next_shrink_below_batch_restart_floor,center_records,CCOc1c(-c2cc(S(=O)(=O)COC)c(/[SH]=C\N=C(C)N(C)C=C(Cl)CC3(c4cccnc4)CC3)o2)cc(C)c2c1C1(CCCC1)S2,0.48297655453618754,200,0.42653061224489797,1000
+5,108,next_shrink_below_batch_restart_floor,center_records,CCOc1c(-c2cc(S(=O)(=O)COC)c(/[SH]=C\N=C(C)N(C)C=C(Cl)CC3(c4cncc(Br)c4)CC3)o2)c2c(c3c1C1(CCCC1)S3)CS2,0.48545328169993046,200,0.42653061224489797,1000
+6,129,next_shrink_below_batch_restart_floor,center_records,CCOc1c(-c2nc(S(=O)(=O)COC)c(/[SH]=C\N=C(C)N(C)C=C(Cl)Cc3ccccc3)o2)c2c(c3c1C1(CCCC1)S3)CS2,0.5078922934076138,200,0.42653061224489797,1000
+7,141,next_shrink_below_batch_restart_floor,center_records,CCOc1c(-c2cc(S(=O)(=O)COC)c(/[SH]=C\N=C(S)N(C)C=C(Br)CC3(c4ccccc4)CC3)o2)cc(C)c2c1CS2,0.45907859078590785,200,0.42653061224489797,1000
+8,158,next_shrink_below_batch_restart_floor,center_records,CCOc1c(-c2nc(S(=O)(=O)COC)c(/[SH]=C\N=C(C)N(C)C(OC(C)F)=C(C)Br)o2)c(SC)cc2c1C1(CCCC1)S2,0.5111111111111111,200,0.42653061224489797,1000
+9,178,next_shrink_below_batch_restart_floor,center_records,CCOCN(C(C)=N/C=[SH]\c1oc(-c2c(SC)cc3c(c2OCC)C2(CCCC2)S3)nc1CC)C(OC(C)F)=C(C)Br,0.5205183585313174,200,0.42653061224489797,1000
+10,193,next_shrink_below_batch_restart_floor,center_records,CCOCN(C(C)=N/C=[SH]\c1oc(-c2c(NC)cc3c(c2OCC)C2(CCCC2)S3)nc1CCc1ccccc1)C(OC(C)F)=C(C)Cl,0.5224501932798097,200,0.42653061224489797,1000

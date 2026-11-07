@@ -1,0 +1,86 @@
+{
+  "method": "reinvent4_external",
+  "oracles": [
+    "penalized_logp",
+    "qed",
+    "median_2",
+    "osimertinib_mpo",
+    "scaffold_hop",
+    "deco_hop",
+    "drd2",
+    "jnk3"
+  ],
+  "default_research_run": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55
+    ],
+    "n_initial": 20,
+    "n_iters": 20,
+    "batch_size": 49,
+    "max_oracle_calls": 1000,
+    "generated_samples_per_seed": 980,
+    "budget_rule": "20 initial molecules plus 20 fixed REINVENT batches of 49 generated molecules. Invalid, duplicate, or constraint-failing generated molecules are recorded but do not consume unique valid oracle calls."
+  },
+  "oracle_constraints": {
+    "penalized_logp": {
+      "max_sa": 7.0,
+      "max_smiles_length": 120,
+      "max_heavy_atoms": 60,
+      "reward_low": -5.0,
+      "reward_high": 25.0
+    },
+    "qed": {
+      "max_sa": 6.5,
+      "max_smiles_length": 100,
+      "max_heavy_atoms": 50,
+      "reward_low": 0.0,
+      "reward_high": 1.0
+    },
+    "median_2": {
+      "max_sa": 6.5,
+      "max_smiles_length": 100,
+      "max_heavy_atoms": 50,
+      "reward_low": 0.0,
+      "reward_high": 1.0
+    },
+    "osimertinib_mpo": {
+      "max_sa": 6.5,
+      "max_smiles_length": 100,
+      "max_heavy_atoms": 50,
+      "reward_low": 0.0,
+      "reward_high": 1.0
+    },
+    "scaffold_hop": {
+      "max_sa": 6.5,
+      "max_smiles_length": 100,
+      "max_heavy_atoms": 50,
+      "reward_low": 0.0,
+      "reward_high": 1.0
+    },
+    "drd2": {
+      "max_sa": 6.5,
+      "max_smiles_length": 100,
+      "max_heavy_atoms": 50,
+      "reward_low": 0.0,
+      "reward_high": 1.0
+    },
+    "deco_hop": {
+      "max_sa": 6.5,
+      "max_smiles_length": 100,
+      "max_heavy_atoms": 50,
+      "reward_low": 0.0,
+      "reward_high": 1.0
+    },
+    "jnk3": {
+      "max_sa": 6.5,
+      "max_smiles_length": 100,
+      "max_heavy_atoms": 50,
+      "reward_low": 0.0,
+      "reward_high": 1.0
+    }
+  }
+}

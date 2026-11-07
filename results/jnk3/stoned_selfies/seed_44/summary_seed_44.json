@@ -1,0 +1,37 @@
+{
+    "method": "stoned_selfies",
+    "seed": 44,
+    "oracle": "jnk3",
+    "reward_label": "JNK3 activity",
+    "oracle_metadata": {
+        "family": "activity_classifier",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "TDC/PMO JNK3 random forest (jnk3_current.pkl), numpy export",
+        "featurisation": "binary ECFP4, GetMorganFingerprintAsBitVect(mol, 2, nBits=2048)"
+    },
+    "best_smiles": "[B-][SH][N+]=C(C[CH]C=NC=CC1=CC=[S-]=CB1)N/N=C/c1ccc([N+](=N)[O-])s1",
+    "best_score": 0.27,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/jnk3/stoned_selfies/seed_44/evaluations_seed_44.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/jnk3/stoned_selfies/seed_44/trajectory_seed_44.csv",
+    "variant": "literature_faithful_elitist",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "generation_size": 49,
+    "length_ceiling_tokens": 100,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

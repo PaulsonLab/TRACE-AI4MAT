@@ -1,0 +1,7 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,30,next_shrink_below_batch_restart_floor,center_records,O=C1CCN(c2cn(C3=CCC(=O)N3c3ccccc3)c(=O)c(=O)[nH]2)[C@H]2CC(=O)[C@H]12,0.1698682935932824,200,0.42653061224489797,1000
+2,44,next_shrink_below_batch_restart_floor,center_records,O=C1CC(n2cc(N3CCC3)[nH]c(=O)c2=O)N1c1ccccc1,0.17477557590476758,200,0.42653061224489797,1000
+3,59,next_shrink_below_batch_restart_floor,center_records,O=C1CC(c2c(-n3cc(N4CCC4)[nH]c(=O)c3=O)c(=O)c2=O)N1c1ccccc1,0.1810999315914219,200,0.42653061224489797,1000
+4,71,next_shrink_below_batch_restart_floor,center_records,O=C1CC=C(n2cc(N3CCC3)[nH]c(=O)c2=O)N1c1ccccc1,0.17328895054507623,200,0.42653061224489797,1000
+5,83,next_shrink_below_batch_restart_floor,center_records,O=C1CCN(c2cn(-c3ccc([O-])n3-c3ccccc3)c(=O)c(=O)[nH]2)[C@H]2CC(=O)[C@H]12,0.1691397275115471,200,0.42653061224489797,1000
+6,95,next_shrink_below_batch_restart_floor,center_records,O=C1C[C@@H]2C(=O)CN(c3cn(-c4ccc([O-])n4-c4ccccc4)c(=O)c(=O)[nH]3)[C@H]2C1,0.16734555610291027,200,0.42653061224489797,1000

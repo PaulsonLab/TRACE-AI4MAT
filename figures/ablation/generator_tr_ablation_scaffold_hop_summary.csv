@@ -1,0 +1,5 @@
+oracle,generator,trust_region,arm,n_seeds,mean_final_best,std_final_best,sem_final_best,mean_gain_from_trust_region
+scaffold_hop,TRACE,yes,trace_turbomol,5,0.538183,0.030982,0.013856,0.027252
+scaffold_hop,Graph-GA,yes,trace_tr_graph_ga,5,0.497819,0.017722,0.007925,-0.010224
+scaffold_hop,TRACE,no,gpbo_trace_gen,5,0.510931,0.020539,0.009185,
+scaffold_hop,Graph-GA,no,gpbo_graph_ga,5,0.508043,0.017294,0.007734,

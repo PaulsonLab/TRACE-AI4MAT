@@ -1,0 +1,22 @@
+{
+    "method": "gpbo_trace_gen",
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 100,
+    "batch_size": 10,
+    "acquisition": "qei",
+    "global_pool_size": 1000,
+    "max_acq_candidates": 512,
+    "candidate_builder": "TRACE global generator (no trust region)",
+    "mean_final_best": 0.5109311802125187,
+    "std_final_best": 0.018370790228074405,
+    "best_score_overall": 0.542809642560266,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/scaffold_hop/gpbo_trace_gen"
+}

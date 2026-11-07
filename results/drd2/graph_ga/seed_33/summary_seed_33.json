@@ -1,0 +1,34 @@
+{
+    "method": "graph_ga",
+    "seed": 33,
+    "oracle": "drd2",
+    "reward_label": "DRD2 activity probability",
+    "oracle_metadata": {
+        "family": "tdc_activity_classifier",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "tdc_name": "DRD2",
+        "source": "TDC/PMO DRD2 oracle, local drd2_current.pkl compatibility wrapper"
+    },
+    "best_smiles": "Cc1cc2c(cc1O)CC[C@H]1c3cc(O)c([NH2+][C@@H]4CCN(C5CC5)C4)cc3[C@H]21",
+    "best_score": 0.9848052149041004,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\drd2\\graph_ga\\seed_33\\evaluations_seed_33.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\drd2\\graph_ga\\seed_33\\trajectory_seed_33.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

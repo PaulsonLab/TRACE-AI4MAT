@@ -1,0 +1,42 @@
+{
+    "method": "gpbo_trace_gen",
+    "seed": 33,
+    "oracle": "osimertinib_mpo",
+    "reward_label": "Osimertinib MPO",
+    "oracle_metadata": {
+        "family": "guacamol_mpo",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "COc1cc(N(C)CCN(C)C)c(NC(=O)C=C)cc1Nc2nccc(n2)c3cn(C)c4ccccc34",
+        "source": "GuacaMol standard_benchmarks hard_osimertinib"
+    },
+    "best_smiles": "C=CC1C2(CCN2C)C(OC)[C@]1([NH2+]CCN=[N+]=[N-])C(N)=O",
+    "best_score": 0.6840694126393517,
+    "n_oracle_calls": 1020,
+    "max_oracle_calls": 1020,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/_stage/osimertinib_mpo__trace_gen_gpbo__seed_33/osimertinib_mpo/gpbo_trace_gen/seed_33/evaluations_seed_33.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/_stage/osimertinib_mpo__trace_gen_gpbo__seed_33/osimertinib_mpo/gpbo_trace_gen/seed_33/trajectory_seed_33.csv",
+    "n_iters_requested": 100,
+    "batch_size": 10,
+    "population_size": 80,
+    "acquisition": "qei",
+    "ucb_beta": 4.0,
+    "global_pool_size": 1000,
+    "max_acq_candidates": 512,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "chem_profile": "relaxed",
+    "candidate_builder": "TRACE global generator (no trust region)",
+    "max_resample_rounds": 6,
+    "underfilled_batches": 0,
+    "iterations_completed": 100
+}

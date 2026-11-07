@@ -1,0 +1,27 @@
+{
+    "method": "smiles_ga",
+    "oracle": "jnk3",
+    "reward_label": "JNK3 activity",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "parent_pool_size": 40,
+    "mutation_rate": 0.7,
+    "min_mutations": 1,
+    "max_mutations": 5,
+    "max_token_delta": 8,
+    "max_attempt_multiplier": 300,
+    "candidate_pool_size": 49,
+    "candidate_pool_selection": "diverse_unscored",
+    "mean_final_best": 0.36000000000000004,
+    "std_final_best": 0.008944271909999166,
+    "best_score_overall": 0.37,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/jnk3/smiles_ga"
+}

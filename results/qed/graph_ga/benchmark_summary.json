@@ -1,0 +1,21 @@
+{
+    "method": "graph_ga",
+    "oracle": "qed",
+    "reward_label": "QED",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "mean_final_best": 0.9424606126863815,
+    "std_final_best": 0.0026244358324802493,
+    "best_score_overall": 0.9473851702080017,
+    "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\qed\\graph_ga"
+}

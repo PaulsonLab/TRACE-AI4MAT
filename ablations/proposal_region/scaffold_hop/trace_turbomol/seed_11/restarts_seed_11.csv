@@ -1,0 +1,5 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,51,next_shrink_below_batch_restart_floor,center_records,CCCCc1ccncc1Cc1cc2c(-c3cc(S(=O)(=O)CC)c(C=CN=CC=CSC(OC)S(C)=O)o3)c-2c1N,0.47797230804439866,200,0.42653061224489797,1000
+2,67,next_shrink_below_batch_restart_floor,center_records,CCCCc1ccncc1Cc1ccc(-c2cc(S(=O)(=O)CC)c(C=CN=CN=CSC(OC)S(C)=O)o2)cc1N,0.49232914923291493,200,0.42653061224489797,1000
+3,84,next_shrink_below_batch_restart_floor,center_records,CCCCc1ncncc1Cc1ccc(-c2cc(S(=O)(=S)CCC)c(C(=CN=CN=COCOCOC)C(=O)OC)o2)cc1N,0.5005268703898841,200,0.42653061224489797,1000
+4,98,next_shrink_below_batch_restart_floor,center_records,CCCCc1ncncc1Cc1ccc(-c2cc(S(=O)(=O)CCC)c(C=CN=CN=CSCOCOC)o2)cc1N,0.4995251661918328,200,0.42653061224489797,1000

@@ -1,0 +1,8 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,25,next_shrink_below_batch_restart_floor,center_records,C=CN(CC[O-])CN(CC(=O)[O-])C(=O)N(C=C)C[O-],0.6665295629747561,200,0.42653061224489797,1000
+2,37,next_shrink_below_batch_restart_floor,center_records,C=CCN(C=C)CN(CC(=O)[O-])C(=O)N(C=C)CC(=O)[O-],0.641776624320298,200,0.42653061224489797,1000
+3,52,next_shrink_below_batch_restart_floor,center_records,C=CCN(CC(=O)[O-])C(=O)N(CC(=O)[O-])C(=O)C[NH3+],0.6181264918691279,200,0.42653061224489797,1000
+4,64,next_shrink_below_batch_restart_floor,history_fallback,C=CN([O-])C(=O)N(CC(=O)[O-])CN(C[O-])CC[O-],0.6703420896351792,200,0.42653061224489797,1000
+5,76,next_shrink_below_batch_restart_floor,history_fallback,C=CN([O-])C(=O)N(CN(CC[O-])CC[O-])C(=O)[O-],0.6703420896351792,200,0.42653061224489797,1000
+6,89,next_shrink_below_batch_restart_floor,history_fallback,C=CN([O-])C(=O)N([O-])CCN(C[O-])CC[O-],0.6769472427712399,200,0.42653061224489797,1000
+7,101,next_shrink_below_batch_restart_floor,history_fallback,C=CN([O-])C(=O)N([O-])CN(CC[O-])CCC[O-],0.6729454088694119,200,0.42653061224489797,1000

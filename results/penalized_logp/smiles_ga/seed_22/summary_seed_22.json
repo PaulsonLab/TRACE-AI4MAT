@@ -1,0 +1,35 @@
+{
+    "method": "smiles_ga",
+    "seed": 22,
+    "oracle": "penalized_logp",
+    "reward_label": "penalized logP",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "definition": "RDKit MolLogP - SA score - max(largest_ring_size - 6, 0)"
+    },
+    "best_smiles": "CCSCCSc1ccc(/N=N/c2cccc3c2SS[N+]3c2ssssc2/N=N/c2ccc(SN=NCl)c([N+]3SSSc4cc(Cl)ccc43)c2)c([N+]2Sc3ccccc32)c1",
+    "best_score": 14.700937009890929,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 7.0,
+        "max_smiles_length": 120,
+        "max_heavy_atoms": 60,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\penalized_logp\\smiles_ga\\seed_22\\evaluations_seed_22.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\penalized_logp\\smiles_ga\\seed_22\\trajectory_seed_22.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "parent_pool_size": 40,
+    "mutation_rate": 0.7,
+    "min_mutations": 1,
+    "max_mutations": 5,
+    "max_token_delta": 8,
+    "max_attempt_multiplier": 300,
+    "candidate_pool_size": 49,
+    "candidate_pool_selection": "diverse_unscored",
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

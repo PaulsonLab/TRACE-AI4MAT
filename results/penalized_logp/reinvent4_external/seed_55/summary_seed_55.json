@@ -1,0 +1,42 @@
+{
+    "method": "reinvent4_external",
+    "seed": 55,
+    "oracle": "penalized_logp",
+    "reward_label": "penalized logP",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "definition": "RDKit MolLogP - SA score - max(largest_ring_size - 6, 0)",
+        "reward_transform": {
+            "low": -5.0,
+            "high": 25.0
+        }
+    },
+    "best_smiles": "CCCc1c(C(CC(C)C)c2c(OC)cc(Cn3ccc4ccc(SC(F)(F)F)cc43)cc2OC)ccc(OCCCOc2ccc(CC(C)(C)C(=O)O)cc2)c1O",
+    "best_score": 7.605821744373982,
+    "n_oracle_calls": 980,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 7.0,
+        "max_smiles_length": 120,
+        "max_heavy_atoms": 60,
+        "required_atomic_nums": null
+    },
+    "n_generated_rows": 1000,
+    "n_accepted_generated_rows": 980,
+    "generated_reject_reason_counts": {
+        "accepted": 980,
+        "invalid_smiles": 15,
+        "max_sa_score": 2,
+        "max_heavy_atoms": 3
+    },
+    "evaluations_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/penalized_logp/reinvent4_external/seed_55/evaluations_seed_55.csv",
+    "trajectory_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/penalized_logp/reinvent4_external/seed_55/trajectory_seed_55.csv",
+    "generated_samples_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/penalized_logp/reinvent4_external/seed_55/generated_samples_seed_55.csv",
+    "source_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/penalized_logp/reinvent4_external/seed_55/reinvent_run/reinvent4_penalized_logp_seed_55_1.csv",
+    "initial_data": "/content/drive/MyDrive/reinvent4_oracle_suite/initial_data/penalized_logp",
+    "n_initial_requested": 20,
+    "n_initial_loaded": 20,
+    "n_iters": 20,
+    "batch_size": 49,
+    "fixed_step_policy": "REINVENT is evaluated for exactly n_iters fixed batches. Invalid, duplicate, or constraint-failing molecules are recorded but do not consume unique oracle budget."
+}

@@ -1,0 +1,40 @@
+{
+    "method": "reinvent4_external",
+    "seed": 33,
+    "oracle": "qed",
+    "reward_label": "QED",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "range": [
+            0.0,
+            1.0
+        ]
+    },
+    "best_smiles": "O=C1NCCCc2c1n(CCN1CCOCC1)c1ccccc21",
+    "best_score": 0.9371117237114894,
+    "n_oracle_calls": 988,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "n_generated_rows": 1000,
+    "n_accepted_generated_rows": 988,
+    "generated_reject_reason_counts": {
+        "accepted": 988,
+        "invalid_smiles": 10,
+        "max_heavy_atoms": 2
+    },
+    "evaluations_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/qed/reinvent4_external/seed_33/evaluations_seed_33.csv",
+    "trajectory_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/qed/reinvent4_external/seed_33/trajectory_seed_33.csv",
+    "generated_samples_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/qed/reinvent4_external/seed_33/generated_samples_seed_33.csv",
+    "source_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/qed/reinvent4_external/seed_33/reinvent_run/reinvent4_qed_seed_33_1.csv",
+    "initial_data": "/content/drive/MyDrive/reinvent4_oracle_suite/initial_data/qed",
+    "n_initial_requested": 20,
+    "n_initial_loaded": 20,
+    "n_iters": 20,
+    "batch_size": 49,
+    "fixed_step_policy": "REINVENT is evaluated for exactly n_iters fixed batches. Invalid, duplicate, or constraint-failing molecules are recorded but do not consume unique oracle budget."
+}

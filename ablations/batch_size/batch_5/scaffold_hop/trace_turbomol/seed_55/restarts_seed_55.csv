@@ -1,0 +1,14 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,40,next_shrink_below_batch_restart_floor,center_records,C=S(C)c1c(C(=N)NCSc2cncs2)c(=O)oc2c(C(=O)C3(C)CCC3)cccc12,0.508373059528175,200,0.42653061224489797,1000
+2,60,next_shrink_below_batch_restart_floor,center_records,COc1ccc(C(=O)C2(C)CCC2)c2oc(=O)c(C(=S)NCSc3cncs3)c(NCCl)c12,0.5344455793893995,200,0.42653061224489797,1000
+3,74,next_shrink_below_batch_restart_floor,center_records,COc1cc(F)c(C(=O)C2(C)CCC2)c2oc(=O)c(C(=N)NCSc3cncs3)c(NCCl)c12,0.5286803048535901,200,0.42653061224489797,1000
+4,88,next_shrink_below_batch_restart_floor,center_records,C=S(CBr)c1c(C(=N)NCSc2cncs2)c(=O)oc2c(C(=O)C3(C)CCC3)c(Br)cc(OC)c12,0.5226586102719033,200,0.42653061224489797,1000
+5,100,next_shrink_below_batch_restart_floor,center_records,CCc1ccc2c(S(C)(=O)=O)c(C(=N)NCSc3cncs3)c(=O)oc2c1C(=O)C1(C)CCC1,0.5032806281596214,200,0.42653061224489797,1000
+6,112,next_shrink_below_batch_restart_floor,center_records,CC1(C(=O)c2c3c(cc4c(S(C)(=O)=O)c(C(=N)NCCc5cncs5)c(=O)oc24)CSCC3)CCC1,0.49459193706981314,200,0.42653061224489797,1000
+7,124,next_shrink_below_batch_restart_floor,center_records,CC1(C(=O)c2c3c(cc4c(S(C)(=O)=O)c(C(=N)N(CCc5cncs5)Cc5ccoc5C5(C)CC5)c(=O)oc24)CSCC3)CCC1,0.4874332848131975,200,0.42653061224489797,1000
+8,136,next_shrink_below_batch_restart_floor,center_records,CCc1cc(CN(CCc2cncs2)C(=N)c2cc3cc4c(c(C(=O)C5(C)CCC5)c3oc2=O)CCSC4)c(CC)o1,0.4781078107810781,200,0.42653061224489797,1000
+9,148,next_shrink_below_batch_restart_floor,center_records,CCC(=O)c1c2c(cc3cc(C(=N)N(CCc4cncs4)Cc4cc(CC)oc4OC)c(=O)oc13)CSCC2,0.46949538535299046,200,0.42653061224489797,1000
+10,160,next_shrink_below_batch_restart_floor,center_records,CCc1cc(CN(CCc2cncs2)C(=N)c2cc3cc4c(cc3oc2=O)CCSC4)co1,0.46526210183095057,200,0.42653061224489797,1000
+11,172,next_shrink_below_batch_restart_floor,center_records,N=C(c1cc2cc3c(cc2oc1=O)CCCC3)N(CCc1cncs1)Cc1ccoc1,0.453551912568306,200,0.42653061224489797,1000
+12,184,next_shrink_below_batch_restart_floor,center_records,N=C(c1cc2ccccc2oc1=O)N(CCc1cccs1)Cc1ccoc1,0.4093648585999073,200,0.42653061224489797,1000
+13,196,next_shrink_below_batch_restart_floor,history_fallback,COc1ccc(C(=O)C2(C)CCC2)c2oc(=O)c(C(=S)NCCc3scnc3C)c(NCBr)c12,0.5447953216374269,200,0.42653061224489797,1000

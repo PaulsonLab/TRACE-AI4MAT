@@ -1,0 +1,21 @@
+{
+    "method": "graph_ga",
+    "oracle": "osimertinib_mpo",
+    "reward_label": "Osimertinib MPO",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "mean_final_best": 0.730046855626971,
+    "std_final_best": 0.010639707836110797,
+    "best_score_overall": 0.7452349636752051,
+    "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\osimertinib_mpo\\graph_ga"
+}

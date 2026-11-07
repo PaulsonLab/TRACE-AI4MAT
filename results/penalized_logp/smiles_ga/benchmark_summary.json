@@ -1,0 +1,27 @@
+{
+    "method": "smiles_ga",
+    "oracle": "penalized_logp",
+    "reward_label": "penalized logP",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "parent_pool_size": 40,
+    "mutation_rate": 0.7,
+    "min_mutations": 1,
+    "max_mutations": 5,
+    "max_token_delta": 8,
+    "max_attempt_multiplier": 300,
+    "candidate_pool_size": 49,
+    "candidate_pool_selection": "diverse_unscored",
+    "mean_final_best": 13.402850063723779,
+    "std_final_best": 1.4551186628474755,
+    "best_score_overall": 14.700937009890929,
+    "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\penalized_logp\\smiles_ga"
+}

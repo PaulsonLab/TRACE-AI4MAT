@@ -1,0 +1,5 @@
+oracle,generator,trust_region,arm,n_seeds,mean_final_best,std_final_best,sem_final_best,mean_gain_from_trust_region
+osimertinib_mpo,TRACE,yes,trace_turbomol,5,0.858627,0.019850,0.008877,0.061889
+osimertinib_mpo,Graph-GA,yes,trace_tr_graph_ga,5,0.756129,0.082959,0.037100,-0.055074
+osimertinib_mpo,TRACE,no,gpbo_trace_gen,5,0.796738,0.063623,0.028453,
+osimertinib_mpo,Graph-GA,no,gpbo_graph_ga,5,0.811202,0.006085,0.002721,

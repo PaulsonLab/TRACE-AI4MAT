@@ -1,0 +1,2 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,40,next_shrink_below_batch_restart_floor,center_records,C=c1nc(F)n(C=NS(C)=O)c(=Nc2cc(F)c(Cl)c(CC(F)F)n2)/c1=C/c1ccc(-c2cc(CC(C)(C)CC)c(F)cc2C)o1,0.517094017094017,200,0.42653061224489797,1000

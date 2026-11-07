@@ -1,0 +1,36 @@
+{
+    "method": "gpbo_graph_ga",
+    "seed": 55,
+    "oracle": "penalized_logp",
+    "reward_label": "penalized logP",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "definition": "RDKit MolLogP - SA score - max(largest_ring_size - 6, 0)"
+    },
+    "best_smiles": "CCCCCCCC[C@H]([C@H](CCCCCC)[C@@H](C)CCCCC1c2[nH]c(=S)n([C@@H](C)CCCCCc3ccc(C4OC4CC=CC=C(C)C)cc3)c21)n1ccn1C",
+    "best_score": 10.141840567822165,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 7.0,
+        "max_smiles_length": 120,
+        "max_heavy_atoms": 60,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\penalized_logp\\gpbo_graph_ga\\seed_55\\evaluations_seed_55.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\penalized_logp\\gpbo_graph_ga\\seed_55\\trajectory_seed_55.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 80,
+    "offspring_size": 40,
+    "mutation_rate": 0.01,
+    "ga_generations": 8,
+    "acquisition": "qei",
+    "ucb_beta": 4.0,
+    "max_acq_candidates": 256,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "graph_ga_role": "generator",
+    "iterations_completed": 20
+}

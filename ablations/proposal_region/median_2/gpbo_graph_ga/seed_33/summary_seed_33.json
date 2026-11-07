@@ -1,0 +1,46 @@
+{
+    "method": "gpbo_graph_ga",
+    "seed": 33,
+    "oracle": "median_2",
+    "reward_label": "Median-2 score",
+    "oracle_metadata": {
+        "family": "guacamol_similarity",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": [
+            "O=C1N(CC(N2C1CC3=C(C2C4=CC5=C(OCO5)C=C4)NC6=C3C=CC=C6)=O)C",
+            "CCCC1=NN(C2=C1N=C(NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C"
+        ],
+        "source": "GuacaMol standard_benchmarks median_tadalafil_sildenafil"
+    },
+    "best_smiles": "CCCc1ccc(S(=O)(=O)C2=C(N3CC(=O)N(C)CC3=O)c3ccccc3C2)c(OC)c1",
+    "best_score": 0.21409464361527528,
+    "n_oracle_calls": 1020,
+    "max_oracle_calls": 1020,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/_stage/median_2__gpbo_graph_ga__seed_33/median_2/gpbo_graph_ga/seed_33/evaluations_seed_33.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/_stage/median_2__gpbo_graph_ga__seed_33/median_2/gpbo_graph_ga/seed_33/trajectory_seed_33.csv",
+    "n_iters_requested": 100,
+    "batch_size": 10,
+    "population_size": 80,
+    "offspring_size": 40,
+    "mutation_rate": 0.01,
+    "ga_generations": 8,
+    "acquisition": "qei",
+    "ucb_beta": 4.0,
+    "max_acq_candidates": 256,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "graph_ga_role": "generator",
+    "max_resample_rounds": 12,
+    "underfilled_batches": 0,
+    "iterations_completed": 100
+}

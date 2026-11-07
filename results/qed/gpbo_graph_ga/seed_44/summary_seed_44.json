@@ -1,0 +1,40 @@
+{
+    "method": "gpbo_graph_ga",
+    "seed": 44,
+    "oracle": "qed",
+    "reward_label": "QED",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "RDKit/TDC/GuacaMol"
+    },
+    "best_smiles": "CC1=C([NH2+]Cc2cccnc2-n2cncn2)CC(C(C)(C)C)=C1",
+    "best_score": 0.9429309716114819,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\qed\\gpbo_graph_ga\\seed_44\\evaluations_seed_44.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\qed\\gpbo_graph_ga\\seed_44\\trajectory_seed_44.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 80,
+    "offspring_size": 40,
+    "mutation_rate": 0.01,
+    "ga_generations": 8,
+    "acquisition": "qei",
+    "ucb_beta": 4.0,
+    "max_acq_candidates": 256,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "graph_ga_role": "generator",
+    "iterations_completed": 20
+}

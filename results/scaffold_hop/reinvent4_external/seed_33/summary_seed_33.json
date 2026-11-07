@@ -1,0 +1,42 @@
+{
+    "method": "reinvent4_external",
+    "seed": 33,
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "oracle_metadata": {
+        "family": "guacamol_hop",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "CCCOc1cc2ncnc(Nc3ccc4ncsc4c3)c2cc1S(=O)(=O)C(C)(C)C"
+    },
+    "best_smiles": "Cc1nc2ccc(N=c3nc[nH]c4ccc(-c5ccc(CN6CCS(=O)(=O)CC6)o5)cc34)cc2s1",
+    "best_score": 0.5069787888778986,
+    "n_oracle_calls": 973,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "n_generated_rows": 1000,
+    "n_accepted_generated_rows": 973,
+    "generated_reject_reason_counts": {
+        "accepted": 973,
+        "invalid_smiles": 17,
+        "max_heavy_atoms": 6,
+        "max_sa_score": 4
+    },
+    "evaluations_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/scaffold_hop/reinvent4_external/seed_33/evaluations_seed_33.csv",
+    "trajectory_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/scaffold_hop/reinvent4_external/seed_33/trajectory_seed_33.csv",
+    "generated_samples_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/scaffold_hop/reinvent4_external/seed_33/generated_samples_seed_33.csv",
+    "source_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/scaffold_hop/reinvent4_external/seed_33/reinvent_run/reinvent4_scaffold_hop_seed_33_1.csv",
+    "initial_data": "/content/drive/MyDrive/reinvent4_oracle_suite/initial_data/scaffold_hop",
+    "n_initial_requested": 20,
+    "n_initial_loaded": 20,
+    "n_iters": 20,
+    "batch_size": 49,
+    "fixed_step_policy": "REINVENT is evaluated for exactly n_iters fixed batches. Invalid, duplicate, or constraint-failing molecules are recorded but do not consume unique oracle budget."
+}

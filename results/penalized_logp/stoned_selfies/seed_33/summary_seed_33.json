@@ -1,0 +1,32 @@
+{
+    "method": "stoned_selfies",
+    "seed": 33,
+    "oracle": "penalized_logp",
+    "reward_label": "penalized logP",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "definition": "RDKit MolLogP - SA score - max(largest_ring_size - 6, 0)"
+    },
+    "best_smiles": "[P+][P+]=[P+][P-][P+]C=Cc1cccc(COc2ccc(Cl)c(Cl)c2)c1SCl",
+    "best_score": 6.159267398709592,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 7.0,
+        "max_smiles_length": 120,
+        "max_heavy_atoms": 60,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_all_oracles_research/penalized_logp/stoned_selfies/seed_33/evaluations_seed_33.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_all_oracles_research/penalized_logp/stoned_selfies/seed_33/trajectory_seed_33.csv",
+    "variant": "literature_faithful_elitist",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "generation_size": 49,
+    "length_ceiling_tokens": 120,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

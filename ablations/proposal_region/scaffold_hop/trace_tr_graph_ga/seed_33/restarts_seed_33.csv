@@ -1,0 +1,13 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,57,next_shrink_below_batch_restart_floor,center_records,O=c1nc1-c1cnc(-c2c(-c3c(-c4nc4=O)c3=O)c2=O)nc1-c1c(-c2c(-c3nc3=O)c2=O)c1=O,0.49928845101258895,200,0.42653061224489797,1000
+2,64,trust_region_underfilled_5_lt_batch_10,center_records,O=c1nc1-c1cnc(-c2c(-c3c(-c4nc4=O)c3=O)c2=O)[nH]c1=O,0.49378614494893563,200,0.42653061224489797,1000
+3,68,trust_region_underfilled_8_lt_batch_10,center_records,O=c1nc1-c1cnc(-c2c(-c3c(-c4cc(-c5c(-c6nc6=O)c5=O)ccn4)c3=O)c2=O)nc1,0.48624984585028974,200,0.42653061224489797,1000
+4,72,trust_region_underfilled_6_lt_batch_10,center_records,O=c1nc1CCS(=O)(=O)c1c(-c2c(-c3cc(-c4c(-c5cc(-c6cc(-c7ncc(-c8nc8=O)cn7)ccn6)ccn5)c4=O)ccn3)c2=O)c1=O,0.4822669965830093,200,0.42653061224489797,1000
+5,76,trust_region_underfilled_8_lt_batch_10,center_records,O=C1N=C(c2c(-c3c(S(=O)(=O)CCCc4nc4=O)c3=O)c2=O)SC(=O)C1=Cc1ccc(-c2ncc(-c3nc3=O)cn2)cn1,0.4669338677354709,200,0.42653061224489797,1000
+6,81,trust_region_underfilled_9_lt_batch_10,center_records,O=C1N=C(c2c(-c3ooc3S(=O)(=O)c3ccc(-c4cccnc4)o3)c2=O)SC(=O)C1=Cc1ccc(-c2ncc(-c3nc3=O)cn2)cn1,0.4634046890927625,200,0.42653061224489797,1000
+7,85,trust_region_underfilled_4_lt_batch_10,center_records,O=C1N=C(c2c(-c3ooc3S(=O)(=O)c3ccc(-c4ccc(-c5nc5=O)cc4)o3)c2=O)SC(=O)C1=Cc1nc1=O,0.4581196581196581,200,0.42653061224489797,1000
+8,86,trust_region_underfilled_7_lt_batch_10,center_records,O=C1N=C(S(=O)(=O)c2ccc(-c3ooc3S(=O)(=O)c3ccc(-c4ooc4-c4ccc(-c5nc5=O)cc4)o3)o2)SC(=O)C1=Cc1nc1=O,0.4499575911789652,200,0.42653061224489797,1000
+9,92,trust_region_underfilled_2_lt_batch_10,center_records,N=C1SC(S(=O)(=O)c2ccc(S(=O)(=O)S(=O)(=O)c3ccc(-c4ccc(-c5nc5=O)cc4)o3)o2)=NC(=O)C1=Cc1nc1=O,0.443001443001443,200,0.42653061224489797,1000
+10,94,trust_region_underfilled_9_lt_batch_10,center_records,N=C1SC(S(=O)(=O)c2ccc(-c3coc(-c4ccc(Br)cc4)c3)o2)=NC(=O)C1=Cc1nc1=O,0.43332232133024995,200,0.42653061224489797,1000
+11,95,trust_region_underfilled_9_lt_batch_10,center_records,N=C1/C(=C/c2ccc(-c3nc3=O)o2)C(=O)N=C2SC(S(=O)(=O)c3ccc(-c4coc(-c5ccc(Br)cc5)c4)o3)=NN12,0.4105105105105105,200,0.42653061224489797,1000
+12,98,trust_region_underfilled_9_lt_batch_10,center_records,CS(=O)(=O)C1=NN2C(=N)/C(=C/c3ccc(-c4ccc(Br)cc4)o3)C(=O)N=C2S1,0.3823306233062331,200,0.42653061224489797,1000

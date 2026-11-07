@@ -1,0 +1,30 @@
+{
+  "method": "stoned_selfies",
+  "variant": "literature_faithful_elitist",
+  "oracle": "osimertinib_mpo",
+  "reward_label": "Osimertinib MPO",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "n_iters": 20,
+  "batch_size": 49,
+  "selection": "strict_elitism_single_champion",
+  "mutations_per_child": 1,
+  "max_attempt_multiplier": 100,
+  "mean_final_best": 0.7142116283498146,
+  "std_final_best": 0.029898124051680304,
+  "best_score_overall": 0.7641166194509462,
+  "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\transfer_trace_files_harmonized_provisional\\osimertinib_mpo\\stoned_selfies",
+  "best_seed_overall": 22,
+  "data_status": "provisional_stitched_not_equivalent_to_rerun",
+  "provisional_harmonization": {
+    "affected_oracle": "osimertinib_mpo",
+    "seed_count": 5,
+    "all_scores_recomputed_with_local_1k_oracle": true,
+    "warning": "Temporary stitched comparison; replace with a true rerun before publication."
+  }
+}

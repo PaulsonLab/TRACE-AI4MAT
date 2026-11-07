@@ -16,3 +16,4 @@ rdkit==2026.3.3
 scikit-learn==1.9.0
 scipy==1.17.1
 torch==2.12.0
+selfies==2.1.1

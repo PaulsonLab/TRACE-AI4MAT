@@ -1,0 +1,20 @@
+{
+    "method": "lolbo_frozen_tr_scaled",
+    "oracle": "drd2",
+    "reward_label": "DRD2 activity probability",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "tr_tolerances": "budget_scaled",
+    "mean_final_best": 0.6347189885776563,
+    "std_final_best": 0.24950252101048265,
+    "best_score_overall": 0.9222661579504848,
+    "mean_decode_yield": 0.7459944733899323,
+    "out_root": "../benchmark_lolbo/drd2/lolbo_frozen_tr_scaled"
+}

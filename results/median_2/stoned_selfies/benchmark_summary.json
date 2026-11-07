@@ -1,0 +1,30 @@
+{
+  "method": "stoned_selfies",
+  "variant": "literature_faithful_elitist",
+  "oracle": "median_2",
+  "reward_label": "Median-2 score",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "n_iters": 20,
+  "batch_size": 49,
+  "selection": "strict_elitism_single_champion",
+  "mutations_per_child": 1,
+  "max_attempt_multiplier": 100,
+  "mean_final_best": 0.13442198720542833,
+  "std_final_best": 0.020364589005465766,
+  "best_score_overall": 0.16818989622170233,
+  "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\transfer_trace_files_harmonized_provisional\\median_2\\stoned_selfies",
+  "best_seed_overall": 11,
+  "data_status": "provisional_stitched_not_equivalent_to_rerun",
+  "provisional_harmonization": {
+    "affected_oracle": "median_2",
+    "seed_count": 5,
+    "all_scores_recomputed_with_local_1k_oracle": true,
+    "warning": "Temporary stitched comparison; replace with a true rerun before publication."
+  }
+}

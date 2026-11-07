@@ -1,0 +1,27 @@
+{
+    "method": "smiles_ga",
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 100,
+    "batch_size": 10,
+    "population_size": 120,
+    "parent_pool_size": 40,
+    "mutation_rate": 0.7,
+    "min_mutations": 1,
+    "max_mutations": 5,
+    "max_token_delta": 8,
+    "max_attempt_multiplier": 300,
+    "candidate_pool_size": 10,
+    "candidate_pool_selection": "diverse_unscored",
+    "mean_final_best": 0.5201742644636262,
+    "std_final_best": 0.014287765010032427,
+    "best_score_overall": 0.5379023883696781,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_batch_size_sweep/batch_10/scaffold_hop/smiles_ga"
+}

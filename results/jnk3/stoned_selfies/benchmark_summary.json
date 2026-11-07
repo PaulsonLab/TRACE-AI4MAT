@@ -1,0 +1,22 @@
+{
+    "method": "stoned_selfies",
+    "variant": "literature_faithful_elitist",
+    "oracle": "jnk3",
+    "reward_label": "JNK3 activity",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "max_attempt_multiplier": 100,
+    "mean_final_best": 0.29000000000000004,
+    "std_final_best": 0.0316227766016838,
+    "best_score_overall": 0.34,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/jnk3/stoned_selfies"
+}

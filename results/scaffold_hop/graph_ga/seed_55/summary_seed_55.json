@@ -1,0 +1,34 @@
+{
+    "method": "graph_ga",
+    "seed": 55,
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "oracle_metadata": {
+        "family": "guacamol_hop",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "CCCOc1cc2ncnc(Nc3ccc4ncsc4c3)c2cc1S(=O)(=O)C(C)(C)C",
+        "source": "GuacaMol standard_benchmarks scaffold_hop"
+    },
+    "best_smiles": "Cc1cc(C[NH2+]c2nc(CC(=O)c3cc4ccccc4oc3=O)ccc2CNc2cccc(CCOC(F)F)c2)nc(-c2cscc2C)n1",
+    "best_score": 0.4889280815206741,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\scaffold_hop\\graph_ga\\seed_55\\evaluations_seed_55.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\scaffold_hop\\graph_ga\\seed_55\\trajectory_seed_55.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

@@ -1,0 +1,46 @@
+{
+  "method": "stoned_selfies",
+  "seed": 44,
+  "oracle": "osimertinib_mpo",
+  "reward_label": "Osimertinib MPO",
+  "oracle_metadata": {
+    "family": "guacamol_mpo",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "target_smiles": "COc1cc(N(C)CCN(C)C)c(NC(=O)C=C)cc1Nc2nccc(n2)c3cn(C)c4ccccc34",
+    "source": "GuacaMol standard_benchmarks hard_osimertinib"
+  },
+  "best_smiles": "[B+]=[O+]COCC(CC(=NO[O+])N[NH2+]C)c1cccnc1N[o+]1cncp1",
+  "best_score": 0.716729493542774,
+  "n_oracle_calls": 1000,
+  "max_oracle_calls": 1000,
+  "constraints": {
+    "max_sa_score": 6.5,
+    "max_smiles_length": 100,
+    "max_heavy_atoms": 50,
+    "required_atomic_nums": null
+  },
+  "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\transfer_trace_files_harmonized_provisional\\osimertinib_mpo\\stoned_selfies\\seed_44\\evaluations_seed_44.csv",
+  "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\transfer_trace_files_harmonized_provisional\\osimertinib_mpo\\stoned_selfies\\seed_44\\trajectory_seed_44.csv",
+  "variant": "literature_faithful_elitist",
+  "n_iters_requested": 20,
+  "batch_size": 49,
+  "selection": "strict_elitism_single_champion",
+  "mutations_per_child": 1,
+  "generation_size": 49,
+  "length_ceiling_tokens": 100,
+  "max_attempt_multiplier": 100,
+  "underfilled_batches": 0,
+  "generations_completed": 20,
+  "data_status": "provisional_stitched_not_equivalent_to_rerun",
+  "provisional_harmonization": {
+    "initialization_source": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\osimertinib_mpo\\stoned_selfies\\seed_44\\evaluations_seed_44.csv",
+    "transferred_proposal_source": "C:\\Research Projects\\Codex_Projects\\TRACE\\transfer_trace_files\\osimertinib_mpo\\stoned_selfies\\seed_44\\evaluations_seed_44.csv",
+    "initial_molecules_replaced": false,
+    "all_scores_recomputed_with_local_1k_oracle": true,
+    "proposal_sequence_preserved_from_transferred_iteration_1_onward": true,
+    "warning": "This stitched trajectory is for temporary visualization only. The proposal sequence was selected under the transferred run's original history and is not equivalent to a rerun."
+  }
+}

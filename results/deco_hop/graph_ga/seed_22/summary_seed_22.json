@@ -1,0 +1,36 @@
+{
+    "method": "graph_ga",
+    "seed": 22,
+    "oracle": "deco_hop",
+    "reward_label": "Deco Hop score",
+    "oracle_metadata": {
+        "family": "guacamol_structural",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "GuacaMol/TDC/PMO decoration_hop",
+        "definition": "mean(clipped PHCO Tanimoto @0.85, no CS(=O)(=O)C, no [#7]-benzothiazole, scaffold present)"
+    },
+    "best_smiles": "Cc1ncc2ncnc(CSc3ncc4ncnc(Sc5nccs5)c4n3)c2n1",
+    "best_score": 0.594715852442672,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/deco_hop/graph_ga/seed_22/evaluations_seed_22.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/deco_hop/graph_ga/seed_22/trajectory_seed_22.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "candidate_pool_size": 49,
+    "candidate_pool_selection": "diverse_unscored",
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

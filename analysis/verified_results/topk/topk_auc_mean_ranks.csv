@@ -1,0 +1,8 @@
+method_id,method_label,mean_rank_auc_top1,ci_low_top1,ci_high_top1,mean_rank_auc_top10,ci_low_top10,ci_high_top10,mean_rank_final_top1,ci_low_final,ci_high_final
+trace_turbomol,TRACE,1.7333,1.3667,2.1333,1.2667,1.0667,1.5333,1.8000,1.4333,2.2000
+smiles_ga,SMILES-GA,2.9500,2.4500,3.4667,2.4333,2.0667,2.8333,2.2667,1.9000,2.7000
+reinvent4_external,REINVENT4,3.0500,2.5000,3.6333,4.0000,3.5333,4.4667,4.0000,3.3667,4.6333
+stoned_selfies,STONED-SELFIES,4.9667,4.3000,5.6000,4.2000,3.5667,4.8333,4.5333,3.8667,5.1667
+graph_ga,Graph-GA,4.3333,3.8000,4.8667,4.5667,4.0333,5.0667,4.2000,3.7333,4.6667
+gpbo_graph_ga,GP-BO + Graph-GA,5.0333,4.5333,5.5000,5.3333,4.8667,5.7667,5.0000,4.4667,5.5000
+lolbo_frozen_tr_scaled,Frozen-VAE BO,5.9333,5.4000,6.4000,6.2000,5.8000,6.5333,6.2000,5.7667,6.5667

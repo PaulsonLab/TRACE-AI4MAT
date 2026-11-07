@@ -1,0 +1,41 @@
+{
+    "method": "gpbo_graph_ga",
+    "seed": 33,
+    "oracle": "drd2",
+    "reward_label": "DRD2 activity probability",
+    "oracle_metadata": {
+        "family": "tdc_activity_classifier",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "tdc_name": "DRD2",
+        "source": "TDC/PMO DRD2 oracle, local drd2_current.pkl compatibility wrapper"
+    },
+    "best_smiles": "Cc1cc2c(cc1F)CN(C1(C)CCN(C3CC3)C1)CC2",
+    "best_score": 0.8729988734204618,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\drd2\\gpbo_graph_ga\\seed_33\\evaluations_seed_33.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\drd2\\gpbo_graph_ga\\seed_33\\trajectory_seed_33.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 80,
+    "offspring_size": 40,
+    "mutation_rate": 0.01,
+    "ga_generations": 8,
+    "acquisition": "qei",
+    "ucb_beta": 4.0,
+    "max_acq_candidates": 256,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "graph_ga_role": "generator",
+    "iterations_completed": 20
+}

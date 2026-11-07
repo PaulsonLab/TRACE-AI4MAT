@@ -1,0 +1,21 @@
+{
+    "method": "graph_ga",
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "mean_final_best": 0.4762595274429029,
+    "std_final_best": 0.012249053643291074,
+    "best_score_overall": 0.4914272990425295,
+    "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\scaffold_hop\\graph_ga"
+}

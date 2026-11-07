@@ -1,0 +1,42 @@
+{
+    "method": "reinvent4_external",
+    "seed": 11,
+    "oracle": "osimertinib_mpo",
+    "reward_label": "Osimertinib MPO",
+    "oracle_metadata": {
+        "family": "guacamol_mpo",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "COc1cc(N(C)CCN(C)C)c(NC(=O)C=C)cc1Nc2nccc(n2)c3cn(C)c4ccccc34"
+    },
+    "best_smiles": "O=C(CNC(=O)NCCN1CCOCC1)NCC1CCN(c2nncc(-n3ccc4ccccc43)n2)CC1",
+    "best_score": 0.7162326270441588,
+    "n_oracle_calls": 969,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "n_generated_rows": 1000,
+    "n_accepted_generated_rows": 969,
+    "generated_reject_reason_counts": {
+        "accepted": 969,
+        "max_heavy_atoms": 6,
+        "invalid_smiles": 22,
+        "max_sa_score": 3
+    },
+    "evaluations_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/osimertinib_mpo/reinvent4_external/seed_11/evaluations_seed_11.csv",
+    "trajectory_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/osimertinib_mpo/reinvent4_external/seed_11/trajectory_seed_11.csv",
+    "generated_samples_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/osimertinib_mpo/reinvent4_external/seed_11/generated_samples_seed_11.csv",
+    "source_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/osimertinib_mpo/reinvent4_external/seed_11/reinvent_run/reinvent4_osimertinib_mpo_seed_11_1.csv",
+    "initial_data": "/content/drive/MyDrive/reinvent4_oracle_suite/initial_data/osimertinib_mpo",
+    "n_initial_requested": 20,
+    "n_initial_loaded": 20,
+    "n_iters": 20,
+    "batch_size": 49,
+    "fixed_step_policy": "REINVENT is evaluated for exactly n_iters fixed batches. Invalid, duplicate, or constraint-failing molecules are recorded but do not consume unique oracle budget."
+}

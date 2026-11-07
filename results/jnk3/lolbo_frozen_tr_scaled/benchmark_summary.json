@@ -1,0 +1,21 @@
+{
+    "method": "lolbo_frozen_tr_scaled",
+    "oracle": "jnk3",
+    "reward_label": "JNK3 activity",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "tr_tolerances": "budget_scaled",
+    "oracle_source": "plogp_benchmark_suite.oracles",
+    "mean_final_best": 0.194,
+    "std_final_best": 0.03929376540877701,
+    "best_score_overall": 0.27,
+    "mean_decode_yield": 0.820085993600163,
+    "out_root": "../benchmark_lolbo/jnk3/lolbo_frozen_tr_scaled"
+}

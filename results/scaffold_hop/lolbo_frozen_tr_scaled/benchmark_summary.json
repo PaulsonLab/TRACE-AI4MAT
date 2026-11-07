@@ -1,0 +1,20 @@
+{
+    "method": "lolbo_frozen_tr_scaled",
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "tr_tolerances": "budget_scaled",
+    "mean_final_best": 0.45293585009784837,
+    "std_final_best": 0.009541719070863866,
+    "best_score_overall": 0.4659367396593674,
+    "mean_decode_yield": 0.9595217272529595,
+    "out_root": "../benchmark_lolbo/scaffold_hop/lolbo_frozen_tr_scaled"
+}

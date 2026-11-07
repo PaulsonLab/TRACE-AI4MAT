@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,n_oracle_calls
+11,0.9475178545426651,C[NH2+][C@H](c1ccso[n-]c1)n1cccc(C)ccc(C)c1,1000
+22,0.9482626121573783,Cc1ncccc1C1=NO[C@@H](C2=NC(c3ccccc3)=CC2)N1,1000
+33,0.947428624973332,[C]c1ccsc(C(F)(F)c2csnn2)cn(NC)c1,1000
+44,0.9472916386084443,Clc1cccc2c1C(C[NH+]1[CH]CCC[C@H]1c1ncon1)=C2,1000
+55,0.9338392876316398,Cc1nn(C(C)C)c(Cl)c1OC1CC(F)CCNC=N1,1000

@@ -1,0 +1,21 @@
+{
+    "method": "lolbo_frozen_tr_scaled",
+    "oracle": "median_2",
+    "reward_label": "Median-2 score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "tr_tolerances": "budget_scaled",
+    "oracle_source": "trace_reinvent.oracles",
+    "mean_final_best": 0.12416761753867844,
+    "std_final_best": 0.011177073090507847,
+    "best_score_overall": 0.146159320855429,
+    "mean_decode_yield": 0.9103560667918924,
+    "out_root": "../benchmark_lolbo_june/median_2/lolbo_frozen_tr_scaled"
+}

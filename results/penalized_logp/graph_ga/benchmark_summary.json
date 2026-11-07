@@ -1,0 +1,21 @@
+{
+    "method": "graph_ga",
+    "oracle": "penalized_logp",
+    "reward_label": "penalized logP",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "mean_final_best": 12.727174132159966,
+    "std_final_best": 1.7598235686693315,
+    "best_score_overall": 14.765766471367346,
+    "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\penalized_logp\\graph_ga"
+}

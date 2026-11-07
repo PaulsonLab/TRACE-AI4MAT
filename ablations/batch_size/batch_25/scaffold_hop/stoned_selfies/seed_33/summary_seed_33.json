@@ -1,0 +1,37 @@
+{
+    "method": "stoned_selfies",
+    "seed": 33,
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "oracle_metadata": {
+        "family": "guacamol_hop",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "CCCOc1cc2ncnc(Nc3ccc4ncsc4c3)c2cc1S(=O)(=O)C(C)(C)C",
+        "source": "GuacaMol standard_benchmarks scaffold_hop"
+    },
+    "best_smiles": "CN(CCC=NSN=COc1ccc(-c2ccc([S-])nn2)[nH]1)N=O",
+    "best_score": 0.4624795056123092,
+    "n_oracle_calls": 1020,
+    "max_oracle_calls": 1020,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_batch_size_sweep/batch_25/scaffold_hop/stoned_selfies/seed_33/evaluations_seed_33.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_batch_size_sweep/batch_25/scaffold_hop/stoned_selfies/seed_33/trajectory_seed_33.csv",
+    "variant": "literature_faithful_elitist",
+    "n_iters_requested": 40,
+    "batch_size": 25,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "generation_size": 25,
+    "length_ceiling_tokens": 100,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 40
+}

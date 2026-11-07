@@ -1,0 +1,40 @@
+{
+    "method": "smiles_ga",
+    "seed": 33,
+    "oracle": "jnk3",
+    "reward_label": "JNK3 activity",
+    "oracle_metadata": {
+        "family": "activity_classifier",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "TDC/PMO JNK3 random forest (jnk3_current.pkl), numpy export",
+        "featurisation": "binary ECFP4, GetMorganFingerprintAsBitVect(mol, 2, nBits=2048)"
+    },
+    "best_smiles": "N=C1C(=Cc2ccc(C3=CCOC(N)C=[SH]S3)oos2)SSC(O)[SH]=C2CNC(S(=O)(=O)F)=CN12",
+    "best_score": 0.36,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/jnk3/smiles_ga/seed_33/evaluations_seed_33.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/jnk3/smiles_ga/seed_33/trajectory_seed_33.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "parent_pool_size": 40,
+    "mutation_rate": 0.7,
+    "min_mutations": 1,
+    "max_mutations": 5,
+    "max_token_delta": 8,
+    "max_attempt_multiplier": 300,
+    "candidate_pool_size": 49,
+    "candidate_pool_selection": "diverse_unscored",
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

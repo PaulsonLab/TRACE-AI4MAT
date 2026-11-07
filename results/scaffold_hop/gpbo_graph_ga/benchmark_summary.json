@@ -1,0 +1,24 @@
+{
+    "method": "gpbo_graph_ga",
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "acquisition": "qei",
+    "max_acq_candidates": 256,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "graph_ga_role": "generator",
+    "mean_final_best": 0.474679093714101,
+    "std_final_best": 0.007894952682999879,
+    "best_score_overall": 0.48432267884322683,
+    "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\scaffold_hop\\gpbo_graph_ga"
+}

@@ -1,0 +1,8 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,24,next_shrink_below_batch_restart_floor,center_records,O=C(c1cc2cc(CCN(CCCc3coc(=O)s3)CCc3coc(=O)s3)ccc2oc1=O)N(CCc1coc(=O)s1)c1coc(=O)s1,0.4660608563954289,200,0.42653061224489797,1000
+2,37,next_shrink_below_batch_restart_floor,center_records,O=C(c1cc2cc(CCN(CCCc3coc(=O)s3)Cc3ccoc3)ccc2oc1=O)N(CCc1coc(=O)s1)Cc1ccoc1,0.4533616418966737,200,0.42653061224489797,1000
+3,49,next_shrink_below_batch_restart_floor,center_records,O=C(c1cc2ccccc2oc1=O)N(CCc1ccc2oc(=O)c(C(=O)N(CCc3cccs3)Cc3ccoc3)cc2c1)Cc1ccoc1,0.40912536001212674,200,0.42653061224489797,1000
+4,61,next_shrink_below_batch_restart_floor,history_fallback,O=C(c1cc2cc(CCN(CCCc3coc(=O)s3)CCc3coc(=O)s3)ccc2sc1=O)N(CCc1coc(=O)s1)c1cccs1,0.47021764032073304,200,0.42653061224489797,1000
+5,73,next_shrink_below_batch_restart_floor,history_fallback,O=C(c1cc2cc(CCN(CCCc3coc(=O)s3)CCc3coc(=O)s3)c(=O)oc2oc1=O)N(CCc1coc(=O)s1)c1cccs1,0.46935348446683456,200,0.42653061224489797,1000
+6,85,next_shrink_below_batch_restart_floor,history_fallback,O=C(c1cc2cc(CN(CCCc3csc(=O)o3)CCc3coc(=O)s3)c(=O)oc2oc1=O)N(CCc1coc(=O)s1)c1cc(=O)sc(=O)s1,0.470604781997187,200,0.42653061224489797,1000
+7,97,next_shrink_below_batch_restart_floor,history_fallback,O=C(c1cc2cc(CN(CCCc3coc(=O)s3)CCc3coc(=O)s3)c(=O)oc2oc1=O)N(CCc1coc(=O)s1)c1cc(=O)sc(=O)o1,0.470604781997187,200,0.42653061224489797,1000

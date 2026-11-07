@@ -1,0 +1,39 @@
+{
+    "method": "smiles_ga",
+    "seed": 55,
+    "oracle": "qed",
+    "reward_label": "QED",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "RDKit/TDC/GuacaMol"
+    },
+    "best_smiles": "Cc1nn(C(C)C)c(Cl)c1OC1CC(F)CCNC=N1",
+    "best_score": 0.9338392876316398,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\qed\\smiles_ga\\seed_55\\evaluations_seed_55.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\qed\\smiles_ga\\seed_55\\trajectory_seed_55.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "parent_pool_size": 40,
+    "mutation_rate": 0.7,
+    "min_mutations": 1,
+    "max_mutations": 5,
+    "max_token_delta": 8,
+    "max_attempt_multiplier": 300,
+    "candidate_pool_size": 49,
+    "candidate_pool_selection": "diverse_unscored",
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,n_oracle_calls
+11,0.4,CSC1NC(=O)C1=CCC1C(=O)CC=C1[N-]c1cnc(Nc2ccc([N+](=O)[N+](CCn3cc[nH+]c3)NO)cc2)nc1,1000
+22,0.24,NS(=O)(=O)c1ccc(N/N=C/C2=CCN(c3ccc4cc(-c5ccccc5)ccc4c3)NC2c2ccccc2)c([N+](=O)[O-])c1,1000
+33,0.27,O=[N+](c1ccc(-c2ccc(Br)cc2)o1)c1cc(C(F)(Br)c2ccc(-c3cnn4c3NCCC4)cc2)nc2ncnc(Br)c12,1000
+44,0.29,COc1cccc(-c2noc(N3CC=C(c4c[nH]cc4C=C[C@H]4C[C@H]4C(=O)N/N=C/c4ccc([N+](=O)[O-])s4)CC3)n2)c1,1000
+55,0.28,O=[N+]([O-])C=Cc1cccc([N+](=O)C=C=CC2=CC([N+](=O)[O-])=CCC2)c1,1000

@@ -1,0 +1,23 @@
+{
+    "method": "graph_ga",
+    "oracle": "deco_hop",
+    "reward_label": "Deco Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "candidate_pool_size": 49,
+    "candidate_pool_selection": "diverse_unscored",
+    "mean_final_best": 0.5950959642994331,
+    "std_final_best": 0.004306701168521558,
+    "best_score_overall": 0.5992270160627159,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/deco_hop/graph_ga"
+}

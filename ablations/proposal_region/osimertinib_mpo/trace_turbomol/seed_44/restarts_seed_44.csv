@@ -1,0 +1,7 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,37,next_shrink_below_batch_restart_floor,center_records,C[NH2+]CCOC[C]1C(C(N)=O)C(c2c(-n3cncn3)ncc(OCc3ccnc(-c4ccccc4)c3)c2N)N1C,0.8382055122257738,200,0.42653061224489797,1000
+2,49,next_shrink_below_batch_restart_floor,center_records,CN1C(c2c(-n3cncn3)ncc(OCc3ccnc(-c4ccccc4)c3)c2N)C(C(N)=O)[C@]12C[NH2+]CCOC2,0.8368760782051573,200,0.42653061224489797,1000
+3,61,next_shrink_below_batch_restart_floor,center_records,CNC(=O)C1C(c2c(-n3cncn3)ncc(OC)c2N)N(C)[C@@]12C[NH2+]CCOC2,0.7588646476479823,200,0.42653061224489797,1000
+4,76,next_shrink_below_batch_restart_floor,center_records,C[NH2+]CCOC[C]N(C)C(CC(N)=O)c1c(-n2cncn2)ncc(OCc2ccnc(-c3ccccc3OC)c2)c1N,0.8500592849571413,200,0.42653061224489797,1000
+5,88,next_shrink_below_batch_restart_floor,center_records,CNC(=O)C1C(c2c(-n3cncn3)ncc(OC)c2N)N2CC3C[NH2+]C[C@@]12CO3,0.7575795208564795,200,0.42653061224489797,1000
+6,100,next_shrink_below_batch_restart_floor,center_records,CNC(=O)C1C(c2cc(OC)cnc2-n2cncn2)N[C@@]12C[NH2+]CCOC2,0.7451006023673609,200,0.42653061224489797,1000

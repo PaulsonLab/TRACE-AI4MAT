@@ -1,0 +1,22 @@
+{
+    "method": "stoned_selfies",
+    "variant": "literature_faithful_elitist",
+    "oracle": "deco_hop",
+    "reward_label": "Deco Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "selection": "strict_elitism_single_champion",
+    "mutations_per_child": 1,
+    "max_attempt_multiplier": 100,
+    "mean_final_best": 0.588279836239032,
+    "std_final_best": 0.01494641174948964,
+    "best_score_overall": 0.6028216164514586,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/deco_hop/stoned_selfies"
+}

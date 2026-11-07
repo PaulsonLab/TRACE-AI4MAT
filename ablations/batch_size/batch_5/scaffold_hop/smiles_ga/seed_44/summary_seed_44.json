@@ -1,0 +1,40 @@
+{
+    "method": "smiles_ga",
+    "seed": 44,
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "oracle_metadata": {
+        "family": "guacamol_hop",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "CCCOc1cc2ncnc(Nc3ccc4ncsc4c3)c2cc1S(=O)(=O)C(C)(C)C",
+        "source": "GuacaMol standard_benchmarks scaffold_hop"
+    },
+    "best_smiles": "CNC(NC[S-](Cc1ccco1)c1conn1)c1c(F)c2#c(oc1=O)SCN=C2",
+    "best_score": 0.5236803436193059,
+    "n_oracle_calls": 1020,
+    "max_oracle_calls": 1020,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_batch_size_sweep/batch_5/scaffold_hop/smiles_ga/seed_44/evaluations_seed_44.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_batch_size_sweep/batch_5/scaffold_hop/smiles_ga/seed_44/trajectory_seed_44.csv",
+    "n_iters_requested": 200,
+    "batch_size": 5,
+    "population_size": 120,
+    "parent_pool_size": 40,
+    "mutation_rate": 0.7,
+    "min_mutations": 1,
+    "max_mutations": 5,
+    "max_token_delta": 8,
+    "max_attempt_multiplier": 300,
+    "candidate_pool_size": 5,
+    "candidate_pool_selection": "diverse_unscored",
+    "underfilled_batches": 0,
+    "generations_completed": 200
+}

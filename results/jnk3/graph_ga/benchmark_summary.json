@@ -1,0 +1,23 @@
+{
+    "method": "graph_ga",
+    "oracle": "jnk3",
+    "reward_label": "JNK3 activity",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "candidate_pool_size": 49,
+    "candidate_pool_selection": "diverse_unscored",
+    "mean_final_best": 0.296,
+    "std_final_best": 0.05462600113499066,
+    "best_score_overall": 0.4,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_new_oracles/jnk3/graph_ga"
+}

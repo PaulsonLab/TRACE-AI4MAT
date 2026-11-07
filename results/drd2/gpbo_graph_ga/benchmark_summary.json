@@ -1,0 +1,24 @@
+{
+    "method": "gpbo_graph_ga",
+    "oracle": "drd2",
+    "reward_label": "DRD2 activity probability",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "acquisition": "qei",
+    "max_acq_candidates": 256,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "graph_ga_role": "generator",
+    "mean_final_best": 0.8608552472090762,
+    "std_final_best": 0.13236111670074385,
+    "best_score_overall": 0.9952625185021455,
+    "out_root": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\drd2\\gpbo_graph_ga"
+}

@@ -1,0 +1,24 @@
+{
+    "method": "gpbo_graph_ga",
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 200,
+    "batch_size": 5,
+    "acquisition": "qei",
+    "max_acq_candidates": 256,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "graph_ga_role": "generator",
+    "mean_final_best": 0.5004444594569604,
+    "std_final_best": 0.009883361284997259,
+    "best_score_overall": 0.5189460184213595,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_batch_size_sweep/batch_5/scaffold_hop/gpbo_graph_ga"
+}

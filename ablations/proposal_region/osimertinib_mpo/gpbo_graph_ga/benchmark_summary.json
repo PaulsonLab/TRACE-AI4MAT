@@ -1,0 +1,18 @@
+{
+    "method": "gpbo_graph_ga",
+    "oracle": "osimertinib_mpo",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_seeds": 5,
+    "n_iters": 100,
+    "batch_size": 10,
+    "mean_final_best": 0.8112020259963966,
+    "std_final_best": 0.0054422342440230255,
+    "best_score_overall": 0.8207696785793935,
+    "out_root": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/osimertinib_mpo/gpbo_graph_ga"
+}

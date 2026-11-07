@@ -1,0 +1,6 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,25,next_shrink_below_batch_restart_floor,center_records,C=C1c2c(nc(C(C)(C)CC(N)=O)[nH]c2=O)N1CCCn1cc(-c2ccnc(N)c2CN)cn1,0.7606403986875206,200,0.42653061224489797,1000
+2,37,next_shrink_below_batch_restart_floor,center_records,C=C(NCCCn1cc(-c2ccncc2C(N)=O)cn1)c1cnc(C(C)(C)CC(N)=O)[nH]c1=O,0.7500292997363582,200,0.42653061224489797,1000
+3,49,next_shrink_below_batch_restart_floor,center_records,C=C(NCCCn1cccn1)c1cnc(C(C)(C)CC(N)=O)[nH]c1=O,0.7227628814243848,200,0.42653061224489797,1000
+4,69,next_shrink_below_batch_restart_floor,center_records,C=C1c2c(nc(C(C)C(N)C(N)=O)[nH]c2=O)N1CCCn1ccc(-c2ccncc2)n1,0.7878479653155017,200,0.42653061224489797,1000
+5,81,next_shrink_below_batch_restart_floor,center_records,C=C1c2c(nc(C(C)C(N)C(N)=O)[nH]c2=O)N1CCCn1cc2c(n1)-c1ccnc-2c1,0.7820982942323789,200,0.42653061224489797,1000

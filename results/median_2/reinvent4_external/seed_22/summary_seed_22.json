@@ -1,0 +1,41 @@
+{
+    "method": "reinvent4_external",
+    "seed": 22,
+    "oracle": "median_2",
+    "reward_label": "Median-2 score",
+    "oracle_metadata": {
+        "family": "guacamol_similarity",
+        "range": [
+            0.0,
+            1.0
+        ]
+    },
+    "best_smiles": "CN(C)c1ncc2c(n1)CN(S(=O)(=O)c1ccc3[nH]c(=N)ccc3c1)C2",
+    "best_score": 0.1551941514395356,
+    "n_oracle_calls": 980,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "n_generated_rows": 1000,
+    "n_accepted_generated_rows": 980,
+    "generated_reject_reason_counts": {
+        "accepted": 980,
+        "invalid_smiles": 14,
+        "max_sa_score": 3,
+        "max_heavy_atoms": 3
+    },
+    "evaluations_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/median_2/reinvent4_external/seed_22/evaluations_seed_22.csv",
+    "trajectory_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/median_2/reinvent4_external/seed_22/trajectory_seed_22.csv",
+    "generated_samples_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/median_2/reinvent4_external/seed_22/generated_samples_seed_22.csv",
+    "source_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/median_2/reinvent4_external/seed_22/reinvent_run/reinvent4_median_2_seed_22_1.csv",
+    "initial_data": "/content/drive/MyDrive/reinvent4_oracle_suite/initial_data/median_2",
+    "n_initial_requested": 20,
+    "n_initial_loaded": 20,
+    "n_iters": 20,
+    "batch_size": 49,
+    "fixed_step_policy": "REINVENT is evaluated for exactly n_iters fixed batches. Invalid, duplicate, or constraint-failing molecules are recorded but do not consume unique oracle budget."
+}

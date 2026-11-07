@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,n_oracle_calls
+11,0.5610859728506787,C[CH]CC[S+]N([SH][O+][S+]#[S-]=[N+]F)c1[nH]c(=S)nc(N)c1I,1000
+22,0.6028216164514586,FN=[S+]c1cc(-c2nc(CSc3nc#[n+]s3)no2)cnc1N=[S-]O[S+]F,1000
+33,0.5906574394463668,[C+]O[C-](Nc1ccc2c(c1)C=NC2)c1c#c[nH]sc2c(c1)CCCC2,1000
+44,0.5860832137733142,C=N[O+][C+]c1cccnc1OC(N)c1cnccc1OCSSF,1000
+55,0.6007509386733416,N#SO[N+]=Nc1ccccc1[C@H](N)Nc1ccc(F)[nH+]c1C[O+]=N[S-][O-],1000

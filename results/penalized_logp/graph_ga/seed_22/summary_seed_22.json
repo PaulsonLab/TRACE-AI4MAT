@@ -1,0 +1,29 @@
+{
+    "method": "graph_ga",
+    "seed": 22,
+    "oracle": "penalized_logp",
+    "reward_label": "penalized logP",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "definition": "RDKit MolLogP - SA score - max(largest_ring_size - 6, 0)"
+    },
+    "best_smiles": "Cc1ccccc1-c1ccc(-c2cc(Cl)c(N(C)C3=CC=CC4C3CC[C@H]4N(CCCCCC(C)C)c3ccccc3)cc2OCC2=C3C=CCCC3=CC2)cc1",
+    "best_score": 9.59364886006097,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 7.0,
+        "max_smiles_length": 120,
+        "max_heavy_atoms": 60,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\penalized_logp\\graph_ga\\seed_22\\evaluations_seed_22.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\penalized_logp\\graph_ga\\seed_22\\trajectory_seed_22.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

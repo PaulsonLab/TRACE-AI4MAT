@@ -1,0 +1,6 @@
+seed,best_score,best_smiles,n_oracle_calls
+11,14.765766471367346,Clc1cc(-c2ccc(Cc3c(Br)ccc(Cl)c3Cl)cc2)ccc1C=Cc1cc(-c2cc(N=CC3=CCC=C(Cc4c(Br)ccc(Cl)c4Cl)C3)ccc2Cl)ccc1Br,1000
+22,9.59364886006097,Cc1ccccc1-c1ccc(-c2cc(Cl)c(N(C)C3=CC=CC4C3CC[C@H]4N(CCCCCC(C)C)c3ccccc3)cc2OCC2=C3C=CCCC3=CC2)cc1,1000
+33,13.146240611220755,Clc1cc(Br)ccc1-c1ccc(Cl)c(-c2cc(-c3ccc(/N=C/C4C=CC(Br)=C4)cc3Cl)ccc2-c2ccc(Cl)c(-c3cc(N=CBr)ccc3Cl)c2)c1,1000
+44,12.321453823387266,CC1=CC(=Cc2cc(C)c(-c3ccc(Cl)c(Cl)c3)cc2Oc2cc(C)c(C3CCCCC3)c(C)c2)CC(C)=C1CC(C)(C)c1nc(=S)c2c3c(sc2[nH]1)CCCC3,1000
+55,13.808760894763493,CCCC=CCC[C@H](C)C1=CC([C@@H](CCCCCC)c2cc([C@H](CCC=NCCCCC=Nc3ccc(Cl)c([C@@H](C)CCC)c3)CCCCCC)ccc2Cl)C(F)=C1Cl,1000

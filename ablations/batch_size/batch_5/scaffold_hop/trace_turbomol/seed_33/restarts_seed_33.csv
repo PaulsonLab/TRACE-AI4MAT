@@ -1,0 +1,14 @@
+restart_number,attempted_iteration,reason,source,center_smiles,center_score,K_after_restart,s_min_after_restart,global_pool_size
+1,36,next_shrink_below_batch_restart_floor,center_records,C=S(=O)(Sc1ccncc1-c1ncc2c(n1)C1(CC2)CC1)S1=NSC/C(=C/c2ccco2)N=CS1,0.4628914628914629,200,0.42653061224489797,1000
+2,54,next_shrink_below_batch_restart_floor,center_records,C=S(=C)(Oc1c(-c2ncc3c(n2)C2(CC3)CC2)cncc1-c1cccc2c1C(=O)OC2)S1=NS(=O)C/C(=C/c2ccco2)N=CS1,0.4821156773211568,200,0.42653061224489797,1000
+3,66,next_shrink_below_batch_restart_floor,center_records,C=S1C/C(=N/c2ccco2)N=CSS(S(=C)(=C)Oc2c(-c3ncc4c(n3)C3(CC4)CC3)cncc2-c2cc3c(c4c2C(=O)C4)CCC3)=N1,0.48340548340548334,200,0.42653061224489797,1000
+4,81,next_shrink_below_batch_restart_floor,center_records,C=S(=S)(Sc1c(-c2ncc3c(n2)C2(CC3)CC2)cncc1-c1ccccc1C(=O)OC)S1=NSC/C(=C/c2ccco2)N=CS1,0.47334410339256866,200,0.42653061224489797,1000
+5,97,next_shrink_below_batch_restart_floor,center_records,C=S1C/C(=N/c2ccco2)N=CSS2(S(=C)(=C)Oc3c(-c4nc(F)c5c(n4)C4(CC4)C5)cncc3-c3cccc4c3C(=O)C4)(=N1)CC2,0.5168235421399978,200,0.42653061224489797,1000
+6,109,next_shrink_below_batch_restart_floor,center_records,C=S1C/C(=N/c2oc3cc2-3)N=CSS2(S(=C)(=C)Oc3c(-c4nc(F)c5c(n4)C4(CC4)C5)cncc3-c3cccc4c3C(=O)S4)(=N1)CC2,0.5179160021265284,200,0.42653061224489797,1000
+7,122,next_shrink_below_batch_restart_floor,center_records,C=S(=O)(Nc1ccncc1-c1ncc2c(n1)C1(CC2)CC1)S1=NSC(=Cc2ccco2)N=CS1,0.4667435601691657,200,0.42653061224489797,1000
+8,137,next_shrink_below_batch_restart_floor,center_records,C=S1C/C(=N/c2oc3cc2-3)N=CSS2(S(=C)(=C)Oc3c(-c4cccc5c4CS5)cnc(F)c3-c3cc4c(c(F)n3)CC43CC3)(=N1)CC2,0.5235001082954299,200,0.42653061224489797,1000
+9,149,next_shrink_below_batch_restart_floor,center_records,C=S1C/C(=N/c2oc3cc2-3)N=CSS2(S(=C)Oc3c(-c4cccc5c4CS5)cnc(F)c3-c3cc(F)c4c(c3)C3(CC3)C4)(=N1)CC2,0.5269709543568465,200,0.42653061224489797,1000
+10,161,next_shrink_below_batch_restart_floor,center_records,C=S(=O)(Cc1ccncc1-c1ncc2c(n1)C1(CC2)CC1)C1=NSC(=Nc2ccc3cc2-3)/C(=C/c2ccco2)N=CS1,0.45872750881098123,200,0.42653061224489797,1000
+11,173,next_shrink_below_batch_restart_floor,center_records,O=S(=O)(Cc1ccncc1-c1ncc2c(n1)C1(CC2)CC1)C1=NNC(=Nc2ccc3cc2-3)/C(=C/c2ccc(-c3ccc(F)cc3F)o2)N=CS1,0.4502307185234014,200,0.42653061224489797,1000
+12,185,next_shrink_below_batch_restart_floor,center_records,O=S(=O)(Cc1ccncc1-c1ccc2c(n1)C1(CC2)CC1)C1=NN2C(=N/C(=C\c3ccc(-c4ccc(F)cc4F)o3)C2=Nc2ccccc2)S1,0.44150163047800844,200,0.42653061224489797,1000
+13,197,next_shrink_below_batch_restart_floor,center_records,O=S(=O)(Cc1ccncc1)C1=NN2C(=N/C(=C\c3ccc(-c4ccc(F)cc4F)o3)C2=Nc2ccccc2)S1,0.427235316124205,200,0.42653061224489797,1000

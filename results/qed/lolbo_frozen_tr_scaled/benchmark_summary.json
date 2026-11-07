@@ -1,0 +1,20 @@
+{
+    "method": "lolbo_frozen_tr_scaled",
+    "oracle": "qed",
+    "reward_label": "QED",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "tr_tolerances": "budget_scaled",
+    "mean_final_best": 0.9344174946087469,
+    "std_final_best": 0.009827017661547019,
+    "best_score_overall": 0.9463893077995472,
+    "mean_decode_yield": 0.8282525161188211,
+    "out_root": "../benchmark_lolbo/qed/lolbo_frozen_tr_scaled"
+}

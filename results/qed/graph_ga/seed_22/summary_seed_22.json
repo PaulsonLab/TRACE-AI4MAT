@@ -1,0 +1,33 @@
+{
+    "method": "graph_ga",
+    "seed": 22,
+    "oracle": "qed",
+    "reward_label": "QED",
+    "oracle_metadata": {
+        "family": "rdkit_property",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "RDKit/TDC/GuacaMol"
+    },
+    "best_smiles": "Cc1ccccc1C1=C[C@@H]([C@H]2NC(c3ccccc3)=NO2)OC1",
+    "best_score": 0.9473851702080017,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\qed\\graph_ga\\seed_22\\evaluations_seed_22.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\qed\\graph_ga\\seed_22\\trajectory_seed_22.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 120,
+    "mutation_rate": 0.067,
+    "max_attempt_multiplier": 100,
+    "underfilled_batches": 0,
+    "generations_completed": 20
+}

@@ -1,0 +1,49 @@
+{
+  "method": "stoned_selfies",
+  "seed": 33,
+  "oracle": "median_2",
+  "reward_label": "Median-2 score",
+  "oracle_metadata": {
+    "family": "guacamol_similarity",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "target_smiles": [
+      "O=C1N(CC(N2C1CC3=C(C2C4=CC5=C(OCO5)C=C4)NC6=C3C=CC=C6)=O)C",
+      "CCCC1=NN(C2=C1N=C(NC2=O)C3=C(C=CC(=C3)S(=O)(=O)N4CCN(CC4)C)OCC)C"
+    ],
+    "source": "GuacaMol standard_benchmarks median_tadalafil_sildenafil"
+  },
+  "best_smiles": "O=c1c2c[nH]cccc-2c2cc([N+](=O)[O-])ccc12",
+  "best_score": 0.11340545177596204,
+  "n_oracle_calls": 1000,
+  "max_oracle_calls": 1000,
+  "constraints": {
+    "max_sa_score": 6.5,
+    "max_smiles_length": 100,
+    "max_heavy_atoms": 50,
+    "required_atomic_nums": null
+  },
+  "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\transfer_trace_files_harmonized_provisional\\median_2\\stoned_selfies\\seed_33\\evaluations_seed_33.csv",
+  "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\transfer_trace_files_harmonized_provisional\\median_2\\stoned_selfies\\seed_33\\trajectory_seed_33.csv",
+  "variant": "literature_faithful_elitist",
+  "n_iters_requested": 20,
+  "batch_size": 49,
+  "selection": "strict_elitism_single_champion",
+  "mutations_per_child": 1,
+  "generation_size": 49,
+  "length_ceiling_tokens": 100,
+  "max_attempt_multiplier": 100,
+  "underfilled_batches": 0,
+  "generations_completed": 20,
+  "data_status": "provisional_stitched_not_equivalent_to_rerun",
+  "provisional_harmonization": {
+    "initialization_source": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\median_2\\stoned_selfies\\seed_33\\evaluations_seed_33.csv",
+    "transferred_proposal_source": "C:\\Research Projects\\Codex_Projects\\TRACE\\transfer_trace_files\\median_2\\stoned_selfies\\seed_33\\evaluations_seed_33.csv",
+    "initial_molecules_replaced": true,
+    "all_scores_recomputed_with_local_1k_oracle": true,
+    "proposal_sequence_preserved_from_transferred_iteration_1_onward": true,
+    "warning": "This stitched trajectory is for temporary visualization only. The proposal sequence was selected under the transferred run's original history and is not equivalent to a rerun."
+  }
+}

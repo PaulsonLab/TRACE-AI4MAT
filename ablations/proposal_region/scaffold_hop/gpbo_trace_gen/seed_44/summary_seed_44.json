@@ -1,0 +1,42 @@
+{
+    "method": "gpbo_trace_gen",
+    "seed": 44,
+    "oracle": "scaffold_hop",
+    "reward_label": "Scaffold Hop score",
+    "oracle_metadata": {
+        "family": "guacamol_hop",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "CCCOc1cc2ncnc(Nc3ccc4ncsc4c3)c2cc1S(=O)(=O)C(C)(C)C",
+        "source": "GuacaMol standard_benchmarks scaffold_hop"
+    },
+    "best_smiles": "CCN=c1oc2c3ccc(c2cc1C(=S)NCC(C)c1scnc1CC)C(CC)(COC)C3",
+    "best_score": 0.542809642560266,
+    "n_oracle_calls": 1020,
+    "max_oracle_calls": 1020,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/scaffold_hop/gpbo_trace_gen/seed_44/evaluations_seed_44.csv",
+    "trajectory_csv": "/home/madhav-muthyala/TRACE/benchmark_trace_gen_gpbo/scaffold_hop/gpbo_trace_gen/seed_44/trajectory_seed_44.csv",
+    "n_iters_requested": 100,
+    "batch_size": 10,
+    "population_size": 80,
+    "acquisition": "qei",
+    "ucb_beta": 4.0,
+    "global_pool_size": 1000,
+    "max_acq_candidates": 512,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "chem_profile": "relaxed",
+    "candidate_builder": "TRACE global generator (no trust region)",
+    "max_resample_rounds": 6,
+    "underfilled_batches": 0,
+    "iterations_completed": 100
+}

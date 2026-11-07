@@ -1,0 +1,21 @@
+{
+    "method": "lolbo_frozen_tr_scaled",
+    "oracle": "osimertinib_mpo",
+    "reward_label": "Osimertinib MPO",
+    "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+    ],
+    "n_iters": 20,
+    "batch_size": 49,
+    "tr_tolerances": "budget_scaled",
+    "oracle_source": "trace_reinvent.oracles",
+    "mean_final_best": 0.691524529370709,
+    "std_final_best": 0.05316201758903673,
+    "best_score_overall": 0.7536489583265411,
+    "mean_decode_yield": 0.8330595768297965,
+    "out_root": "../benchmark_lolbo_june/osimertinib_mpo/lolbo_frozen_tr_scaled"
+}

@@ -1,0 +1,113 @@
+task,task_label,method_id,method_label,metric,mean_auc,within_task_rank
+penalized_logp,Penalized logP,trace_turbomol,TRACE,auc_top1_batch,11.206932,2.00
+penalized_logp,Penalized logP,graph_ga,Graph-GA,auc_top1_batch,8.782066,4.00
+penalized_logp,Penalized logP,smiles_ga,SMILES-GA,auc_top1_batch,8.899734,3.00
+penalized_logp,Penalized logP,gpbo_graph_ga,GP-BO + Graph-GA,auc_top1_batch,6.568490,5.00
+penalized_logp,Penalized logP,stoned_selfies,STONED-SELFIES,auc_top1_batch,4.392011,7.00
+penalized_logp,Penalized logP,reinvent4_external,REINVENT4,auc_top1_batch,6.127123,6.00
+penalized_logp,Penalized logP,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top1_batch,13.840864,1.00
+penalized_logp,Penalized logP,trace_turbomol,TRACE,auc_top10_batch,10.602467,2.00
+penalized_logp,Penalized logP,graph_ga,Graph-GA,auc_top10_batch,7.147476,4.00
+penalized_logp,Penalized logP,smiles_ga,SMILES-GA,auc_top10_batch,7.995393,3.00
+penalized_logp,Penalized logP,gpbo_graph_ga,GP-BO + Graph-GA,auc_top10_batch,5.249568,5.00
+penalized_logp,Penalized logP,stoned_selfies,STONED-SELFIES,auc_top10_batch,3.749642,7.00
+penalized_logp,Penalized logP,reinvent4_external,REINVENT4,auc_top10_batch,4.565737,6.00
+penalized_logp,Penalized logP,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top10_batch,11.124927,1.00
+qed,QED,trace_turbomol,TRACE,auc_top1_batch,0.940390,1.00
+qed,QED,graph_ga,Graph-GA,auc_top1_batch,0.932677,5.00
+qed,QED,smiles_ga,SMILES-GA,auc_top1_batch,0.939654,2.00
+qed,QED,gpbo_graph_ga,GP-BO + Graph-GA,auc_top1_batch,0.930847,6.00
+qed,QED,stoned_selfies,STONED-SELFIES,auc_top1_batch,0.938566,3.00
+qed,QED,reinvent4_external,REINVENT4,auc_top1_batch,0.937601,4.00
+qed,QED,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top1_batch,0.925895,7.00
+qed,QED,trace_turbomol,TRACE,auc_top10_batch,0.931633,1.00
+qed,QED,graph_ga,Graph-GA,auc_top10_batch,0.902465,5.00
+qed,QED,smiles_ga,SMILES-GA,auc_top10_batch,0.928168,2.00
+qed,QED,gpbo_graph_ga,GP-BO + Graph-GA,auc_top10_batch,0.895908,7.00
+qed,QED,stoned_selfies,STONED-SELFIES,auc_top10_batch,0.926456,3.00
+qed,QED,reinvent4_external,REINVENT4,auc_top10_batch,0.905667,4.00
+qed,QED,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top10_batch,0.898288,6.00
+median_2,Median molecule 2,trace_turbomol,TRACE,auc_top1_batch,0.153579,1.00
+median_2,Median molecule 2,graph_ga,Graph-GA,auc_top1_batch,0.139471,4.00
+median_2,Median molecule 2,smiles_ga,SMILES-GA,auc_top1_batch,0.150708,2.00
+median_2,Median molecule 2,gpbo_graph_ga,GP-BO + Graph-GA,auc_top1_batch,0.133022,5.00
+median_2,Median molecule 2,stoned_selfies,STONED-SELFIES,auc_top1_batch,0.120181,6.00
+median_2,Median molecule 2,reinvent4_external,REINVENT4,auc_top1_batch,0.145762,3.00
+median_2,Median molecule 2,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top1_batch,0.116550,7.00
+median_2,Median molecule 2,trace_turbomol,TRACE,auc_top10_batch,0.147772,1.00
+median_2,Median molecule 2,graph_ga,Graph-GA,auc_top10_batch,0.127579,4.00
+median_2,Median molecule 2,smiles_ga,SMILES-GA,auc_top10_batch,0.141543,2.00
+median_2,Median molecule 2,gpbo_graph_ga,GP-BO + Graph-GA,auc_top10_batch,0.121968,5.00
+median_2,Median molecule 2,stoned_selfies,STONED-SELFIES,auc_top10_batch,0.110689,6.00
+median_2,Median molecule 2,reinvent4_external,REINVENT4,auc_top10_batch,0.129494,3.00
+median_2,Median molecule 2,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top10_batch,0.106554,7.00
+osimertinib_mpo,Osimertinib MPO,trace_turbomol,TRACE,auc_top1_batch,0.732290,1.00
+osimertinib_mpo,Osimertinib MPO,graph_ga,Graph-GA,auc_top1_batch,0.699255,2.00
+osimertinib_mpo,Osimertinib MPO,smiles_ga,SMILES-GA,auc_top1_batch,0.699043,3.00
+osimertinib_mpo,Osimertinib MPO,gpbo_graph_ga,GP-BO + Graph-GA,auc_top1_batch,0.674492,6.00
+osimertinib_mpo,Osimertinib MPO,stoned_selfies,STONED-SELFIES,auc_top1_batch,0.678673,5.00
+osimertinib_mpo,Osimertinib MPO,reinvent4_external,REINVENT4,auc_top1_batch,0.694066,4.00
+osimertinib_mpo,Osimertinib MPO,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top1_batch,0.671114,7.00
+osimertinib_mpo,Osimertinib MPO,trace_turbomol,TRACE,auc_top10_batch,0.706795,1.00
+osimertinib_mpo,Osimertinib MPO,graph_ga,Graph-GA,auc_top10_batch,0.660908,3.00
+osimertinib_mpo,Osimertinib MPO,smiles_ga,SMILES-GA,auc_top10_batch,0.670867,2.00
+osimertinib_mpo,Osimertinib MPO,gpbo_graph_ga,GP-BO + Graph-GA,auc_top10_batch,0.627610,6.00
+osimertinib_mpo,Osimertinib MPO,stoned_selfies,STONED-SELFIES,auc_top10_batch,0.650841,4.00
+osimertinib_mpo,Osimertinib MPO,reinvent4_external,REINVENT4,auc_top10_batch,0.638073,5.00
+osimertinib_mpo,Osimertinib MPO,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top10_batch,0.596116,7.00
+scaffold_hop,Scaffold hop,trace_turbomol,TRACE,auc_top1_batch,0.478822,1.00
+scaffold_hop,Scaffold hop,graph_ga,Graph-GA,auc_top1_batch,0.451220,5.00
+scaffold_hop,Scaffold hop,smiles_ga,SMILES-GA,auc_top1_batch,0.470998,3.00
+scaffold_hop,Scaffold hop,gpbo_graph_ga,GP-BO + Graph-GA,auc_top1_batch,0.451843,4.00
+scaffold_hop,Scaffold hop,stoned_selfies,STONED-SELFIES,auc_top1_batch,0.449584,6.00
+scaffold_hop,Scaffold hop,reinvent4_external,REINVENT4,auc_top1_batch,0.472433,2.00
+scaffold_hop,Scaffold hop,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top1_batch,0.443318,7.00
+scaffold_hop,Scaffold hop,trace_turbomol,TRACE,auc_top10_batch,0.473729,1.00
+scaffold_hop,Scaffold hop,graph_ga,Graph-GA,auc_top10_batch,0.433154,5.00
+scaffold_hop,Scaffold hop,smiles_ga,SMILES-GA,auc_top10_batch,0.463522,2.00
+scaffold_hop,Scaffold hop,gpbo_graph_ga,GP-BO + Graph-GA,auc_top10_batch,0.432375,6.00
+scaffold_hop,Scaffold hop,stoned_selfies,STONED-SELFIES,auc_top10_batch,0.442477,4.00
+scaffold_hop,Scaffold hop,reinvent4_external,REINVENT4,auc_top10_batch,0.449178,3.00
+scaffold_hop,Scaffold hop,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top10_batch,0.429623,7.00
+deco_hop,Decoration hop,trace_turbomol,TRACE,auc_top1_batch,0.603042,1.00
+deco_hop,Decoration hop,graph_ga,Graph-GA,auc_top1_batch,0.579856,5.00
+deco_hop,Decoration hop,smiles_ga,SMILES-GA,auc_top1_batch,0.584081,4.00
+deco_hop,Decoration hop,gpbo_graph_ga,GP-BO + Graph-GA,auc_top1_batch,0.584251,3.00
+deco_hop,Decoration hop,stoned_selfies,STONED-SELFIES,auc_top1_batch,0.566148,6.00
+deco_hop,Decoration hop,reinvent4_external,REINVENT4,auc_top1_batch,0.589138,2.00
+deco_hop,Decoration hop,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top1_batch,0.565108,7.00
+deco_hop,Decoration hop,trace_turbomol,TRACE,auc_top10_batch,0.598423,1.00
+deco_hop,Decoration hop,graph_ga,Graph-GA,auc_top10_batch,0.565560,5.00
+deco_hop,Decoration hop,smiles_ga,SMILES-GA,auc_top10_batch,0.578752,2.00
+deco_hop,Decoration hop,gpbo_graph_ga,GP-BO + Graph-GA,auc_top10_batch,0.570888,4.00
+deco_hop,Decoration hop,stoned_selfies,STONED-SELFIES,auc_top10_batch,0.562048,6.00
+deco_hop,Decoration hop,reinvent4_external,REINVENT4,auc_top10_batch,0.575857,3.00
+deco_hop,Decoration hop,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top10_batch,0.552221,7.00
+drd2,DRD2,trace_turbomol,TRACE,auc_top1_batch,0.870286,2.00
+drd2,DRD2,graph_ga,Graph-GA,auc_top1_batch,0.847769,3.00
+drd2,DRD2,smiles_ga,SMILES-GA,auc_top1_batch,0.796394,4.00
+drd2,DRD2,gpbo_graph_ga,GP-BO + Graph-GA,auc_top1_batch,0.548321,6.00
+drd2,DRD2,stoned_selfies,STONED-SELFIES,auc_top1_batch,0.675965,5.00
+drd2,DRD2,reinvent4_external,REINVENT4,auc_top1_batch,0.873615,1.00
+drd2,DRD2,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top1_batch,0.526460,7.00
+drd2,DRD2,trace_turbomol,TRACE,auc_top10_batch,0.833868,1.00
+drd2,DRD2,graph_ga,Graph-GA,auc_top10_batch,0.718564,3.00
+drd2,DRD2,smiles_ga,SMILES-GA,auc_top10_batch,0.727116,2.00
+drd2,DRD2,gpbo_graph_ga,GP-BO + Graph-GA,auc_top10_batch,0.343824,6.00
+drd2,DRD2,stoned_selfies,STONED-SELFIES,auc_top10_batch,0.634536,5.00
+drd2,DRD2,reinvent4_external,REINVENT4,auc_top10_batch,0.636774,4.00
+drd2,DRD2,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top10_batch,0.293941,7.00
+jnk3,JNK3,trace_turbomol,TRACE,auc_top1_batch,0.260011,3.00
+jnk3,JNK3,graph_ga,Graph-GA,auc_top1_batch,0.227595,5.00
+jnk3,JNK3,smiles_ga,SMILES-GA,auc_top1_batch,0.263628,2.00
+jnk3,JNK3,gpbo_graph_ga,GP-BO + Graph-GA,auc_top1_batch,0.171659,7.00
+jnk3,JNK3,stoned_selfies,STONED-SELFIES,auc_top1_batch,0.235592,4.00
+jnk3,JNK3,reinvent4_external,REINVENT4,auc_top1_batch,0.303989,1.00
+jnk3,JNK3,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top1_batch,0.178743,6.00
+jnk3,JNK3,trace_turbomol,TRACE,auc_top10_batch,0.240981,1.00
+jnk3,JNK3,graph_ga,Graph-GA,auc_top10_batch,0.187602,4.00
+jnk3,JNK3,smiles_ga,SMILES-GA,auc_top10_batch,0.238485,2.00
+jnk3,JNK3,gpbo_graph_ga,GP-BO + Graph-GA,auc_top10_batch,0.127255,7.00
+jnk3,JNK3,stoned_selfies,STONED-SELFIES,auc_top10_batch,0.214912,3.00
+jnk3,JNK3,reinvent4_external,REINVENT4,auc_top10_batch,0.161172,5.00
+jnk3,JNK3,lolbo_frozen_tr_scaled,Frozen-VAE BO,auc_top10_batch,0.135360,6.00

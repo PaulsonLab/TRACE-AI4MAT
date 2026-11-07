@@ -1,0 +1,41 @@
+{
+    "method": "gpbo_graph_ga",
+    "seed": 11,
+    "oracle": "osimertinib_mpo",
+    "reward_label": "Osimertinib MPO",
+    "oracle_metadata": {
+        "family": "guacamol_mpo",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "target_smiles": "COc1cc(N(C)CCN(C)C)c(NC(=O)C=C)cc1Nc2nccc(n2)c3cn(C)c4ccccc34",
+        "source": "GuacaMol standard_benchmarks hard_osimertinib"
+    },
+    "best_smiles": "CNc1ncc(N(C)CC2=CCS(=O)(=O)NN2)cn1",
+    "best_score": 0.7323465087845665,
+    "n_oracle_calls": 1000,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "evaluations_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\osimertinib_mpo\\gpbo_graph_ga\\seed_11\\evaluations_seed_11.csv",
+    "trajectory_csv": "C:\\Research Projects\\Codex_Projects\\TRACE\\TRACE\\benchmark_all_oracles_1k\\osimertinib_mpo\\gpbo_graph_ga\\seed_11\\trajectory_seed_11.csv",
+    "n_iters_requested": 20,
+    "batch_size": 49,
+    "population_size": 80,
+    "offspring_size": 40,
+    "mutation_rate": 0.01,
+    "ga_generations": 8,
+    "acquisition": "qei",
+    "ucb_beta": 4.0,
+    "max_acq_candidates": 256,
+    "acq_eval_batch_size": 256,
+    "qei_samples": 64,
+    "max_gp_train_size": 400,
+    "graph_ga_role": "generator",
+    "iterations_completed": 20
+}

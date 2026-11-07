@@ -1,0 +1,43 @@
+{
+    "method": "reinvent4_external",
+    "seed": 11,
+    "oracle": "jnk3",
+    "reward_label": "JNK3 activity",
+    "oracle_metadata": {
+        "family": "activity_classifier",
+        "range": [
+            0.0,
+            1.0
+        ],
+        "source": "TDC/PMO JNK3 random forest, numpy export (no scikit-learn needed)",
+        "featurisation": "binary ECFP4, GetMorganFingerprintAsBitVect(mol, 2, nBits=2048)"
+    },
+    "best_smiles": "CC(=O)Nc1cncc(-c2cnc3[nH]cc(-c4ccncc4)c3c2)c1",
+    "best_score": 0.26,
+    "n_oracle_calls": 965,
+    "max_oracle_calls": 1000,
+    "constraints": {
+        "max_sa_score": 6.5,
+        "max_smiles_length": 100,
+        "max_heavy_atoms": 50,
+        "required_atomic_nums": null
+    },
+    "n_generated_rows": 1000,
+    "n_accepted_generated_rows": 965,
+    "generated_reject_reason_counts": {
+        "accepted": 965,
+        "invalid_smiles": 24,
+        "max_heavy_atoms": 9,
+        "max_sa_score": 2
+    },
+    "evaluations_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/jnk3/reinvent4_external/seed_11/evaluations_seed_11.csv",
+    "trajectory_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/jnk3/reinvent4_external/seed_11/trajectory_seed_11.csv",
+    "generated_samples_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/jnk3/reinvent4_external/seed_11/generated_samples_seed_11.csv",
+    "source_csv": "/content/drive/MyDrive/benchmark_reinvent4_1k/jnk3/reinvent4_external/seed_11/reinvent_run/reinvent4_jnk3_seed_11_1.csv",
+    "initial_data": "/content/drive/MyDrive/reinvent4_oracle_suite/initial_data/jnk3",
+    "n_initial_requested": 20,
+    "n_initial_loaded": 20,
+    "n_iters": 20,
+    "batch_size": 49,
+    "fixed_step_policy": "REINVENT is evaluated for exactly n_iters fixed batches. Invalid, duplicate, or constraint-failing molecules are recorded but do not consume unique oracle budget."
+}
