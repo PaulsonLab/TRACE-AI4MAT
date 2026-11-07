@@ -353,6 +353,7 @@ silently be used for another.
 
 See `requirements.txt` for pinned versions. Verified on Python 3.14 (Linux, CPU)
 and Python 3.14.2 (Windows 11). 
+
 ---
 
 ## License and attribution
